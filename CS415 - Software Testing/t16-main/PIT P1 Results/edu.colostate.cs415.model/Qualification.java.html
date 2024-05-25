@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Qualification.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package edu.colostate.cs415.model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Set;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.HashSet;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import edu.colostate.cs415.dto.QualificationDTO;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class Qualification {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;private String description;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;private Set&#60;Worker&#62; workers;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;public Qualification(String description) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_14'>1</a>
+<span>
+1. &#60;init&#62; : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;if (description.isEmpty()) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;&#9;throw new IllegalArgumentException(&#34;Description cannot be empty&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;this.description = description;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  This operation will be used by JUnit.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Note that the argument to this operation must be of type Object, i.e. not equals(q : Qualification), etc.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  You will override the equals(o : Object) method inherited by the class.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Two Qualification instances are equal if and only if their descriptions match.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;@Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public boolean equals(Object other) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_26'/>
+26
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_26'>1</a>
+<span>
+1. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (this.description.equals(other.toString())) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_27'/>
+27
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_27'>1</a>
+<span>
+1. equals : replaced boolean return with false for edu/colostate/cs415/model/Qualification::equals &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return true;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_29'/>
+29
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_29'>1</a>
+<span>
+1. equals : replaced boolean return with true for edu/colostate/cs415/model/Qualification::equals &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return false;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  This operation is used when storing the object into a hashset or hashtable.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  It returns the hashcode of the attribute description.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;@Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public int hashCode() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_36'/>
+36
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_36'>1</a>
+<span>
+1. hashCode : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (this.description != null) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_37'/>
+37
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_37'>1</a>
+<span>
+1. hashCode : replaced int return with 0 for edu/colostate/cs415/model/Qualification::hashCode &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return this.description.hashCode();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>&#9;&#9;return 0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_40'/>
+40
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_40'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_41'/>
+41
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_41'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Returns the description.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_43'/>
+43
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_43'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;@Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_44'/>
+44
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_44'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public String toString() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_45'/>
+45
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_45'>1</a>
+<span>
+1. toString : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;if (this.description != null) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_46'/>
+46
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_46'>1</a>
+<span>
+1. toString : replaced return value with &#34;&#34; for edu/colostate/cs415/model/Qualification::toString &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;&#9;return this.description;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_47'/>
+47
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_47'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_48'/>
+48
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_48'>1</a>
+<span>
+1. toString : replaced return value with &#34;&#34; for edu/colostate/cs415/model/Qualification::toString &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>&#9;&#9;return null;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_49'/>
+49
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_49'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_51'/>
+51
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_51'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Returns the set of workers that have this qualification.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  The order in the set is not under your control, so your tests shouldn&#39;t assume any specific ordering in the returned object.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_53'/>
+53
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_53'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Return an empty set if there are no workers.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public Set&#60;Worker&#62; getWorkers() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_55'/>
+55
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_55'>1</a>
+<span>
+1. getWorkers : replaced return value with Collections.emptySet for edu/colostate/cs415/model/Qualification::getWorkers &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return this.workers;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_56'/>
+56
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_56'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Adds worker to the set of workers with this qualification.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_59'/>
+59
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_59'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  It is not the responsibility of this method to ensure that the worker actually has the qualification. This will be ensured by the method that calls addWorker (e.g., addQualification in Worker).</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_60'/>
+60
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_60'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Otherwise, the system will be in an inconsistent state.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_61'/>
+61
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_61'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public void addWorker(Worker worker) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_62'/>
+62
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_62'>1</a>
+<span>
+1. addWorker : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;if (this.workers == null) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_63'/>
+63
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_63'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;&#9;this.workers = new HashSet&#60;&#62;();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_65'/>
+65
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_65'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;this.workers.add(worker);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_66'/>
+66
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_66'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_67'/>
+67
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_67'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_68'/>
+68
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_68'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Removes the worker from the set of workers with this qualification.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_69'/>
+69
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_69'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  It is not the responsibility of this method to ensure that the worker is actually in the set of workers for this qualification,</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_70'/>
+70
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_70'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  or is actually removed from the company or the projects.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_71'/>
+71
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_71'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  All of this will be ensured by the method that calls removeWorker.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_72'/>
+72
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_72'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Otherwise, the system will be in an inconsistent state.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_73'/>
+73
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_73'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public void removeWorker(Worker worker) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_74'/>
+74
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_74'>1</a>
+<span>
+1. removeWorker : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;if (worker == null) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_75'/>
+75
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_75'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;&#9;throw new NullPointerException(&#34;Cannot remove null worker&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_76'/>
+76
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_76'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_77'/>
+77
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_77'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;&#9;this.workers.remove(worker);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_78'/>
+78
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_78'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_79'/>
+79
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_79'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_80'/>
+80
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_80'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  Returns a data-transfer-object representing the qualification.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_81'/>
+81
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_81'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>//  The object contains the names of the workers. Do not use the toString() method.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_82'/>
+82
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_82'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;public QualificationDTO toDTO() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_83'/>
+83
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_83'>1</a>
+<span>
+1. toDTO : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if(this.workers == null){</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_84'/>
+84
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_84'>1</a>
+<span>
+1. toDTO : replaced return value with null for edu/colostate/cs415/model/Qualification::toDTO &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return new QualificationDTO(this.description,new String[0]);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_85'/>
+85
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_85'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_86'/>
+86
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_86'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        String workerNames[] = new String[this.workers.size()];</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_87'/>
+87
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_87'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        int i = 0;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_88'/>
+88
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_88'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_89'/>
+89
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_89'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        for(Worker w: this.workers){</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_90'/>
+90
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_90'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            workerNames[i] = w.getName();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_91'/>
+91
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_91'>1</a>
+<span>
+1. toDTO : Changed increment from 1 to -1 &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            i++;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_92'/>
+92
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_92'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_93'/>
+93
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_93'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_94'/>
+94
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_94'>1</a>
+<span>
+1. toDTO : replaced return value with null for edu/colostate/cs415/model/Qualification::toDTO &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>&#9;&#9;return new QualificationDTO(this.description,workerNames);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_95'/>
+95
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_95'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>&#9;}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_96'/>
+96
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_96'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_97'/>
+97
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_97'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@654cb30c_98'/>
+98
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_98'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>&#60;init&#62;<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.toStringT2(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_26'>26</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_26'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT5(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_27'>27</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_27'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT5(edu.colostate.cs415.model.QualificationTest)</span></span> replaced boolean return with false for edu/colostate/cs415/model/Qualification::equals &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_29'>29</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_29'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT2(edu.colostate.cs415.model.QualificationTest)</span></span> replaced boolean return with true for edu/colostate/cs415/model/Qualification::equals &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_36'>36</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_36'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationHashcodeBaseTest(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_37'>37</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_37'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationHashcodeBaseTest(edu.colostate.cs415.model.QualificationTest)</span></span> replaced int return with 0 for edu/colostate/cs415/model/Qualification::hashCode &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_45'>45</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_45'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT5(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_46'>46</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_46'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT5(edu.colostate.cs415.model.QualificationTest)</span></span> replaced return value with &#34;&#34; for edu/colostate/cs415/model/Qualification::toString &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_48'>48</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_48'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>none</span></span> replaced return value with &#34;&#34; for edu/colostate/cs415/model/Qualification::toString &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_55'>55</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_55'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getWorkers<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.bbgabel_qualificationgetWorkersTest_emptyObject(edu.colostate.cs415.model.QualificationTest)</span></span> replaced return value with Collections.emptySet for edu/colostate/cs415/model/Qualification::getWorkers &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_62'>62</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_62'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>addWorker<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.removeWorkerT1(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_74'>74</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_74'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>removeWorker<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.removeWorkerT4(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_83'>83</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_83'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toDTO<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT2(edu.colostate.cs415.model.QualificationTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_84'>84</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_84'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toDTO<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT2(edu.colostate.cs415.model.QualificationTest)</span></span> replaced return value with null for edu/colostate/cs415/model/Qualification::toDTO &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_91'>91</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_91'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toDTO<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT1(edu.colostate.cs415.model.QualificationTest)</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@654cb30c_94'>94</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@654cb30c_94'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toDTO<br/><b>Killed by : </b>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT1(edu.colostate.cs415.model.QualificationTest)</span></span> replaced return value with null for edu/colostate/cs415/model/Qualification::toDTO &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>edu.colostate.cs415.model.ProjectTest.projectToDTOT7(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulT4(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddProject_bigProject(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT5(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddQualificationTest_Normal(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetWorkoad_sizeOver1(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.removeWorkerT4(edu.colostate.cs415.model.QualificationTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT5(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetWorkoad_big(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToDTOBaseTest(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectGetMissingQualificationsT4(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerremoveProject_oneProject(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT7(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT10(edu.colostate.cs415.model.CompanyTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignAllT3(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectSetStatusT3(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT7(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT4(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerremoveProject_smallProjects(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkertoStringTest_normalOperation(edu.colostate.cs415.model.WorkerTest) (4 ms)</li><li>edu.colostate.cs415.model.QualificationTest.bbgabel_qualificationgetWorkersTest_filledSet(edu.colostate.cs415.model.QualificationTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerremoveProject_bigProject(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetSalaryTest_normal(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetWorkoad_medium(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToDTOT2(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectConstructorBaseTest(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveWorkerT4(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerisAvailable_workloadIs3(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkertoDTO_emptyProjects(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectEqualsT3(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT5(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerwillOverload_Overloaded(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT4(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerConstructorTest_zeroSalary(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerremoveProject_mediumProject(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT13(edu.colostate.cs415.model.CompanyTest) (64 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectConstructorT6(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT8(edu.colostate.cs415.model.CompanyTest) (2 ms)</li><li>edu.colostate.cs415.model.QualificationTest.toStringT2(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulT6(edu.colostate.cs415.model.ProjectTest) (2 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectHashCodeT3(edu.colostate.cs415.model.ProjectTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT3(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.companyEqualsT2(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToDTOT5(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT1(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT6(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT2(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.bbgabel_qualificationgetWorkersTest_emptyObject(edu.colostate.cs415.model.QualificationTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddWorkerT3(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT9(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT5(edu.colostate.cs415.model.CompanyTest) (5 ms)</li><li>edu.colostate.cs415.model.QualificationTest.removeWorkerT1(edu.colostate.cs415.model.QualificationTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectConstructorT5(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT1(edu.colostate.cs415.model.CompanyTest) (7 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignAllT1(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.bbgabel_WorkersetSalary_positiveSalary(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT6(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddWorkerBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT6(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT3(edu.colostate.cs415.model.QualificationTest) (2 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulT3(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerequalsTest_normal(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.toStringT1(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationHashcodeBaseTest(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerwillOverload_projectIsNull(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT3(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveWorkerT2(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.toStringT1(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectGetMissingQualificationsT5(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT2(edu.colostate.cs415.model.CompanyTest) (5 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerwillOverload_Small(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddQualificationT2(edu.colostate.cs415.model.ProjectTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT6(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetProjectsTest_normal(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT10(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT1(edu.colostate.cs415.model.CompanyTest) (13 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT3(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddProject_mediumProject(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createQualificationT1(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationConstructorBaseTest(edu.colostate.cs415.model.QualificationTest) (2 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerequalsTest_Currisnull(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectGetMissingQualificationsBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkertoDTO_NoneEmpty(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveWorkerT3(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT4(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerConstructorTest_negativeSalary(edu.colostate.cs415.model.WorkerTest) (9 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectEqualsT4(edu.colostate.cs415.model.ProjectTest) (4 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT3(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT4(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT3(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkertoDTO_EmptyQualifications(edu.colostate.cs415.model.WorkerTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.getUnavailableWorkersTest(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationEqualsBaseTest(edu.colostate.cs415.model.QualificationTest) (1 ms)</li><li>edu.colostate.cs415.model.QualificationTest.removeWorkerT2(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT9(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddQualificationTest_emptyQualifications(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createQualificationT4(edu.colostate.cs415.model.CompanyTest) (6 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT2(edu.colostate.cs415.model.QualificationTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetQualificationsTest_normal(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulT5(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToStringBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectEqualsBaseTest(edu.colostate.cs415.model.ProjectTest) (6 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT4(edu.colostate.cs415.model.CompanyTest) (2 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerwillOverload_Medium(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT1(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToDTOT6(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddProject_normally(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetWorkoad_size1(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectGetMissingQualificationsT3(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveAllWorkersBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT1(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT1(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkergetNameTest_normal(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT8(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerequalsTest_noMatch(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerwillOverload_Big(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectConstructorT2(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerConstructorTest_emptyName(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectHashCodeBaseTest(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT5(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectIsHelpfulT2(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationConstructorT3(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectEqualsT2(edu.colostate.cs415.model.ProjectTest) (4 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectSetStatusBaseTest(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerisAvailable_workloadIs12(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT2(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationEqualsT5(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerConstructorTest_multipleQualifications(edu.colostate.cs415.model.WorkerTest) (41 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT5(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT1(edu.colostate.cs415.model.CompanyTest) (2 ms)</li><li>edu.colostate.cs415.model.QualificationTest.removeWorkerT3(edu.colostate.cs415.model.QualificationTest) (2 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT7(edu.colostate.cs415.model.CompanyTest) (4 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddQualificationT3(edu.colostate.cs415.model.ProjectTest) (4 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerConstructorTest_normalOperation(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddQualificationTest_Nullq(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkerequalsTest_typeNotWorker(edu.colostate.cs415.model.WorkerTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT2(edu.colostate.cs415.model.CompanyTest) (2 ms)</li><li>edu.colostate.cs415.model.WorkerTest.bbgabel_WorkersetSalary_negativeSalary(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveAllWorkersT3(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddQualificationTest_Duplicate(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.QualificationTest.qualificationtoDTOT2(edu.colostate.cs415.model.QualificationTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectToDTOT4(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddQualificationBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT6(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createProjectT3(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectEqualsT5(edu.colostate.cs415.model.ProjectTest) (5 ms)</li><li>edu.colostate.cs415.model.CompanyTest.startT7(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.WorkerTest.Kypeus_WorkeraddProject_nullworker(edu.colostate.cs415.model.WorkerTest) (0 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectAddWorkerT2(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignT2(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.CompanyTest.createWorkerT6(edu.colostate.cs415.model.CompanyTest) (3 ms)</li><li>edu.colostate.cs415.model.CompanyTest.assignT11(edu.colostate.cs415.model.CompanyTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectRemoveWorkerBaseTest(edu.colostate.cs415.model.ProjectTest) (1 ms)</li><li>edu.colostate.cs415.model.ProjectTest.projectConstructorT4(edu.colostate.cs415.model.ProjectTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.finishT2(edu.colostate.cs415.model.CompanyTest) (0 ms)</li><li>edu.colostate.cs415.model.CompanyTest.unassignAllT2(edu.colostate.cs415.model.CompanyTest) (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.10.4
+
+</body>
+</html>

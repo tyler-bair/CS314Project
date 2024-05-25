@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+}
+
+code {
+  font-family: monospace;
+}
+
+.addWorker {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.addWorker * {
+    margin-right: 7px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 80%);
+}
+
+.addWorker input {
+    border-style: solid;
+}

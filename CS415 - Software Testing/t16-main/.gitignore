@@ -1,0 +1,16 @@
+.vscode
+.idea
+ 
+client/node_modules/
+client/build/
+ 
+server/target/
+server/evosuite*
+server/.clover/
+server/.ekstazi/
+*/.DS_Store
+.DS_Store
+server/.settings/*
+server/.classpath
+server/.project
+.java-version
