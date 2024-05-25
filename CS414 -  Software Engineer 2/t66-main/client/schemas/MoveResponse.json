@@ -1,0 +1,28 @@
+{
+    "$id": "https://example.com/move.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "move",
+    "description": "move response",
+    "type": "object",
+    "properties": {
+      "requestType": {
+        "description": "The TIP object type should be move",
+        "type": "string",
+        "pattern": "^move$"
+      },
+      "moveSuccess": {
+        "description": "Indicates whether the move was successful",
+        "type": "boolean"
+      },
+      "matchID": {
+        "description": "The identifier of the match",
+        "type": "integer"
+      },
+      "fenState": {
+        "description": "A fen string describing the state of the match",
+        "type": "string"
+      }
+    },
+    "required": ["requestType", "moveSuccess", "matchID", "fenState"],
+    "additionalProperties": false
+  }

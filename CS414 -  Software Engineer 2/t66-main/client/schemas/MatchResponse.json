@@ -1,0 +1,46 @@
+{
+  "$id": "https://example.com/matchActionResponse.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MatchActionResponse",
+  "description": "Response object for match action request",
+  "type": "object",
+  "properties": {
+    "responseMessage": {
+      "description": "Descriptive message detailing the result of the match action",
+      "type": "string"
+    },
+    "requestType": {
+      "description": "Indicates the type of the request, which should be 'match'",
+      "type": "string",
+      "const": "match"
+    },
+    "userName_1": {
+      "description": "The username of the white player, who starts the match (Player 1)",
+      "type": "string"
+    },
+    "userName_2": {
+      "description": "The username of the black player (Player 2), if present",
+      "type": "string",
+      "nullable": true
+    },
+    "matchAction": {
+      "description": "The type of action that was done to a match",
+      "type": "string",
+      "enum": ["create", "join", "leave"]
+    },
+    "matchID": {
+      "description": "The identifier for the match, can be negative if the match ID is not applicable",
+      "type": "integer"
+    },
+    "fenState": {
+      "description": "Identifies the state of the board in the match",
+      "type": "string"
+    }
+  },
+  "required": [
+    "responseMessage",
+    "requestType",
+    "userName_1"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+{
+    "$id": "https://example.com/info.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "move",
+    "description": "Move object for POST request",
+    "type": "object",
+    "properties": {
+      "requestType": {
+        "description": "The type option should be move for move",
+        "type": "string",
+        "pattern": "^move$"
+      },
+      "matchID": {
+        "description": "The identifying number for a given match",
+        "type": "integer"
+      },
+      "fenState": {
+        "description": "The fen string representing the state of the match",
+        "type": "string"
+      }
+    },
+    "required": [
+      "requestType",
+      "matchID",
+      "fenState"
+    ],
+    "additionalProperties": true
+  }

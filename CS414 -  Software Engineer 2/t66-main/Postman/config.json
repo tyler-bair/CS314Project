@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "9ad8ea1d-f5a8-4072-999f-3f4ff7f186e6",
+		"name": "config",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30727524-9ad8ea1d-f5a8-4072-999f-3f4ff7f186e6"
+	},
+	"item": [
+		{
+			"name": "base",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "840fb522-6149-4daf-860d-133bb9f7580e",
+						"exec": [
+							"pm.test(\"Response is HTTP200 status\", () => {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Server-side team name is correct\", () => {",
+							"    const response = pm.response.json();",
+							"pm.collectionVariables.set(\"TEAM_NAME\", \"t66 Order 66\");",
+							"    const expectedTeamName = pm.collectionVariables.get(\"TEAM_NAME\");",
+							"    pm.expect(response.serverName).to.eql(expectedTeamName);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "32b261d2-e747-4fa7-87c9-b3cd3097601e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"requestType\": \"config\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/api/config",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						"config"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"id": "bee34078-af05-4e1b-9e8a-df0f0506785f",
+			"key": "TEAM_NAME",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "$id": "https://example.com/info.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "info",
+  "description": "User information object for POST request",
+  "type": "object",
+  "properties": {
+    "requestType": {
+      "description": "The type option should be info for information",
+      "type": "string",
+      "pattern": "^info$"
+    },
+    "username": {
+      "description": "The username for a given user",
+      "type": "string"
+    }
+  },
+  "required": [
+    "requestType",
+    "username"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,30 @@
+{
+  "$id": "https://example.com/userRegistration.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "userRegistration",
+  "description": "User registration object for POST request",
+  "type": "object",
+  "properties": {
+    "requestType": {
+      "description": "The type option should be User for Registration",
+      "type": "string",
+      "pattern": "^user$"
+    },
+    "username": {
+      "description": "The username for a given user",
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 20
+    },
+    "password": {
+      "description": "Given password for the user",
+      "type": "string"
+    }
+  },
+  "required": [
+    "requestType",
+    "username",
+    "password"
+  ],
+  "additionalProperties": true
+}

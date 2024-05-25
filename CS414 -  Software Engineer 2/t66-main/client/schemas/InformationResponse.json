@@ -1,0 +1,32 @@
+{
+    "$id": "https://example.com/info.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "info",
+    "description": "information response",
+    "type": "object",
+    "properties": {
+      "requestType": {
+        "description": "The TIP object type should be info",
+        "type": "string",
+        "pattern": "^info$"
+      },
+      "matchHistoryAL": {
+        "description": "ArrayList of all the matches.",
+        "type": "array"
+      },
+      "matchHistory": {
+        "description": "ArrayList of all the matches associated with the username",
+        "type": "array"
+      },
+      "username": {
+        "description": "The username of the user logging in",
+        "type": "string"
+      },
+      "infoSuccess": {
+        "description": "A boolean of whether the request was successful.",
+        "type": "boolean"
+      }
+    },
+    "required": ["requestType", "matchHistory", "matchHistoryAL", "username", "infoSuccess"],
+    "additionalProperties": false
+}

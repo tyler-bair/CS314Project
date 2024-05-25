@@ -1,0 +1,33 @@
+{
+  "$id": "https://example.com/user.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "user",
+  "description": "user registration response",
+  "type": "object",
+  "properties": {
+    "requestType": {
+      "description": "The TIP object type should be user",
+      "type": "string",
+      "pattern": "^user$"
+    },
+    "registrationSuccess": {
+      "description": "Indicates whether the registration was successful",
+      "type": "string",
+      "enum": ["true", "false"]
+    },
+    "username": {
+      "description": "The username of the registered user",
+      "type": "string"
+    },
+    "password": {
+      "description": "The password of the registered user",
+      "type": "string"
+    },
+    "responseMessage": {
+      "description": "A message indicating the outcome of the registration attempt",
+      "type": "string"
+    }
+  },
+  "required": ["requestType", "registrationSuccess", "username", "responseMessage"],
+  "additionalProperties": false
+}
