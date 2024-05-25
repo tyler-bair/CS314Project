@@ -1,0 +1,12 @@
+{
+    "requestType": "find",
+    "match": "chicken",
+    "limit": 1,
+    "found": 3,
+    "places": [{
+        "id": "3XA8",
+        "name": "Chicken Strip",
+        "latitude": "32.514167",
+        "longitude": "-97.595278"
+    }]   
+}

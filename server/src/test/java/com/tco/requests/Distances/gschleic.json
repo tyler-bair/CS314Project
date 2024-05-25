@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Walt Disney World Resort", "latitude":  "28.385233",  "longitude": "-81.563873"},
+                      {"name": "Disneyland Park", "latitude":  "33.812092", "longitude": "-117.918976"},
+                      {"name": "Tokyo Disneyland", "latitude":  "35.632896", "longitude": "139.880402"},
+                      {"name": "Disneyland Paris", "latitude":  "48.8723198", "longitude": "2.775542"}],
+  "earthRadius"    : 1592.75,
+  "distances"       : [8734, 2211, 2427, 1820]
+}

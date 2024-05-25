@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Westfall Hall", "latitude":  "40.57724",  "longitude": "-105.09416"},
+                        {"name": "Durward Hall", "latitude":  "40.57758", "longitude": "-105.09319"},
+                        {"name": "Alpine Hall", "latitude":  "40.57774", "longitude": "-105.09245"},
+                        {"name": "Pinon Hall", "latitude":  "40.57695", "longitude": "-105.09211"}],
+    "earthRadius"    : 3958.8,
+    "distances"       : [0, 0, 0, 0]
+  }

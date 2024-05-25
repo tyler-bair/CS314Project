@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Null Island", "latitude":  "0.000",  "longitude": "0.000"},
+                        {"name": "Bora-Bora", "latitude":  "-16.505", "longitude": "-151.741"},
+                        {"name": "San Diego", "latitude":  "32.718", "longitude": "-117.159"},
+                        {"name": "Ostrov Nurasyla", "latitude":  "76.679", "longitude": "149.000"},
+                        {"name": "Glasgow", "latitude":  "55.864", "longitude": "-4.252"}],
+    "earthRadius"    : 456.0,
+    "distances"       : [1175,472,471,369,445]
+}

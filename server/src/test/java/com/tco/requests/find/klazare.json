@@ -1,0 +1,36 @@
+  {
+  "requestType"   : "find",
+  "match"         : "Glasgow",
+  "limit"         : 1,
+  "found"         : 3,
+  "places"        : [{"name": "Glasgow Airport",
+                      "latitude": "55.871944",
+                      "longitude":"-4.433056",
+                      "id": "GLA",
+                      "altitude":"15",
+                      "municipality":"Paisley",
+                      "type":"airport",
+                      "region":"Scotland",
+                      "country":"United Kingdom"
+                      },  
+					 {"name": "Glasgow Prestwick Airport",
+                      "latitude": "55.509444",
+                      "longitude":"-4.594444",
+                      "id": "PIK",
+                      "altitude":"37",
+                      "municipality":"Prestwick",
+                      "type":"airport",
+                      "region":"Scotland",
+                      "country":"United Kingdom"
+                      },
+                     {"name": "Glasgow Valley County Airport",
+                      "latitude": "48.2125",
+                      "longitude":"-106.614722",
+                      "id": "GGW",
+                      "altitude":"2290",
+                      "municipality":"Valley County",
+                      "type":"airport",
+                      "region":"Montana",
+                      "country":"United States"
+                      }]
+}

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Butte County", "latitude":  "44.871443",  "longitude": "-103.587890"},
+                      {"name": "Hayes Avenue", "latitude":  "44.433780", "longitude": "-89.613281"},
+                      {"name": "Central Bohemia", "latitude":  "49.553726", "longitude": "13.957032"},
+                      {"name": "Greenland", "latitude":  "74.449358", "longitude": "-36.421874"}],
+  "earthRadius"    : 145.3,
+  "distances"       : [25, 163, 87, 93]
+}

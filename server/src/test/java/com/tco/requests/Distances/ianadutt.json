@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Colorado State University", "latitude":  "40.6",  "longitude": "-105.1"},
+                        {"name": "Brigham Young University Idaho", "latitude":  "43.8", "longitude": "-111.8"},
+                        {"name": "University of Tokyo", "latitude":  "35.7", "longitude": "139.8"},
+                        {"name": "University of Lima", "latitude":  "-12.1", "longitude": "-77.0"},
+                        {"name": "Ilisimatusarfik - University of Greenland", "latitude":  "64.2", "longitude": "-51.7"}],
+    "earthRadius"    : 1000.0,
+    "distances"      : [103, 1350, 2431, 1373, 671]
+  }

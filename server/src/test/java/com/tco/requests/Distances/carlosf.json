@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Blood Falls", "latitude":  "-77.182356",  "longitude": "157.334092"},
+                      {"name": "Coors Field", "latitude":  "39.755882", "longitude": "-104.994178"},
+                      {"name": "Sebangau National Park", "latitude":  "-2.524072", "longitude": "113.383399"},
+                      {"name": "Puerto de la Cruz", "latitude":  "27.494721", "longitude": "-15.280154"}],
+  "earthRadius"    : 3959,
+  "distances"       : [8987, 8924, 8647, 8987]
+}

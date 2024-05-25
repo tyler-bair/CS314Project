@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Cigarette King Ft Collins", "latitude":  "40.576",  "longitude": "-105.058"},
+                      {"name": "Hooters Loveland", "latitude":  "40.437", "longitude": "-104.992"},
+                      {"name": "Smokes r us", "latitude":  "41.816", "longitude": "-88.277"},
+                      {"name": "Snohomish Skatepark", "latitude":  "47.913", "longitude": "-122.085"},
+                      {"name": "The Berrics", "latitude":  "34.021", "longitude": "-118.226"}],
+  "earthRadius"    : 3959.0,
+  "distances"       : [10, 874, 1694, 980, 852]
+}

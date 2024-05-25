@@ -1,0 +1,29 @@
+{
+  "requestType": "find",
+  "match": "newark",
+  "limit": 3,
+  "found": 5,
+  "places": [
+    {
+      "continent": "NA",
+      "id": "0NJ8",
+      "latitude": "40.702301025390625",
+      "longitude": "-74.15070343017578",
+      "name": "Port Newark Helistop"
+    },
+    {
+      "continent": "NA",
+      "id": "1JY1",
+      "latitude": "40.7332000732",
+      "longitude": "-74.1577987671",
+      "name": "Newark/Jersey Street Heliport"
+    },
+    {
+      "continent": "NA",
+      "id": "JY11",
+      "latitude": "40.77730178833008",
+      "longitude": "-74.3584976196289",
+      "name": "Newark Academy Heliport"
+    }
+  ]
+}

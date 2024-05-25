@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Disney World", "latitude":  "28.4",  "longitude": "-81.6"},
+                      {"name": "Disney Land", "latitude":  "33.8", "longitude": "-117.9"},
+                      {"name": "Panama Canal", "latitude":  "9.1", "longitude": "-79.7"},
+                      {"name": "Guantanamo Bay Detention Camp", "latitude":  "19.9", "longitude": "-75.1"}],
+    
+  "earthRadius"    : 6371.0,
+  "distances"       : [3496, 4766, 1293, 1150]
+}

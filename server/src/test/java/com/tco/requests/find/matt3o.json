@@ -1,0 +1,13 @@
+{
+  "requestType"    : "find",
+  "match"          : "nin",
+  "limit"          : 1,
+  "found"          : 190,
+  "places"         : [{"name":"Lightning Bolt Field Airport", 
+                       "latitude": "44.4011001587", 
+                       "longitude": "-72.26360321039999",
+                       "id":"04VT",
+                       "altitude":"2156",
+                       "municipality":"Cabot"
+                       }]
+}

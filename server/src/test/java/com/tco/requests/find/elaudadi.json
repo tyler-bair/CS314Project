@@ -1,0 +1,17 @@
+{
+  "requestType"    : "find",
+  "match"          : "Grand Junction",
+  "limit"          : 2,
+  "found"          : 1,
+  "places"         : [{"name":"Grand Junction Regional Airport", 
+                       "latitude": "39.1222307", 
+                       "longitude": "-108.5291468",
+                       "id":"KGEG",
+                       "altitude":"1465",
+                       "municipality":"Grand Junction",
+                       "type":"airport",
+                       "region":"Colorado",
+                       "country":"United States",
+                       "url":"https://www.gjairport.com/"
+                       }]
+}

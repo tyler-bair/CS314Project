@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Point 1", "latitude":  "37.336166",  "longitude": "-121.890591"},
+                        {"name": "Point 2", "latitude":  "-37.336166", "longitude": "58.109409"},
+                        {"name": "Point 3", "latitude":  "40.550853", "longitude": "-105.066808"},
+                        {"name": "Point 4", "latitude":  "-40.550853", "longitude": "74.933192"},
+                        {"name": "Point 5", "latitude":  "35.35", "longitude": "35.35"}],
+    "earthRadius"    : 1000.0,
+    "distances"      : [2489, 2584, 2802, 914, 2743]
+  }

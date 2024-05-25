@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Niagara Falls State Park", "latitude":  "43.08334369439155",  "longitude": "-79.0644337014631"},
+                      {"name": "Mount Everest", "latitude":  "27.988264260038893", "longitude": "86.92415289809196"},
+                      {"name": "Otemanu", "latitude":  "-16.48950808601465", "longitude": "-151.73570565341902"},
+                      {"name": "Reykjavík", "latitude":  "64.14652369186206", "longitude": "-21.94251757758657"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [11984, 13900, 13514, 4230]
+}

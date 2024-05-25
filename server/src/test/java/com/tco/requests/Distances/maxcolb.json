@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Galloping Ghost Arcade", "latitude":  "41.81709241062584",  "longitude": "-87.85568134418801"},
+                      {"name": "Easter Island", "latitude":  "-27.10932138088826", "longitude": "-109.34928650091544"},
+                      {"name": "Yong Xin tea industry", "latitude":  "23.555273038402408", "longitude": "120.67480161165602"},
+                      {"name": "Khyargas Lake ", "latitude":  "49.074313679389945", "longitude": "93.30141577443409"}],
+  "earthRadius"    : 3736,
+  "distances"       : [4677, 8798, 2175, 5810]
+}

@@ -1,0 +1,13 @@
+{
+  "requestType":"find",
+  "match":"Rice",
+  "limit":2,
+  "found":19,
+  "places":[{"continent": "North America",
+             "altitude" : "500", 
+             "longitude" : "36.679803
+             "latitude" : "-76.027407"
+             "municipality": "Virginia Beach"
+             "type" : "small_airport", 
+            }]
+}

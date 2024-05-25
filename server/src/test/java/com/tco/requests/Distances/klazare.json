@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Colosseum", "latitude":  "41.890251",  "longitude": "12.492373"},
+                      {"name": "Tahj Mahal", "latitude":  "27.173891", "longitude": "78.042068"},
+                      {"name": "Christ the Redeemer", "latitude":  "-22.950996", "longitude": "-43.206499"},
+                      {"name": "Petra", "latitude":  "30.328960", "longitude": "35.444832"},
+                      {"name": "Great Wall of China", "latitude":  "40.431908", "longitude": "116.570374"}],
+  "earthRadius"    : 6371,
+  "distances"       : [6073,14130,10270,7184,8098]
+}

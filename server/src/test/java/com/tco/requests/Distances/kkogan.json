@@ -1,0 +1,13 @@
+{
+  "requestType"    : "distances",
+  "places"         : [
+    {"name":"Null Island", "latitude":  "0",  "longitude": "0"},
+    {"name": "North Pole", "latitude":  "90", "longitude": "0"},
+    {"name": "South Pole", "latitude":  "-90", "longitude": "0"},
+    {"name": "Confluence of Antimeridian and Equator", "latitude":  "0", "longitude": "180"},
+    {"name": "East of Null Island", "latitude":  "0",  "longitude": "1"},
+    {"name": "Null Island", "latitude":  "0",  "longitude": "0"}
+  ],
+  "earthRadius"    : 1,
+  "distances"       : [2, 3, 2, 3, 0, 0]
+}

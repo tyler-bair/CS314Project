@@ -1,0 +1,32 @@
+{
+    "match": "pizza",
+    "limit": 4,
+    "found": 2,
+    "places": [
+        {
+            "continent": "NA",
+            "altitude": "233",
+            "iso_country": "US",
+            "latitude": "29.747699737548828",
+            "name": "Mario's Flying Pizza Airport",
+            "municipality": "Sealy",
+            "iso_region": "US-TX",
+            "index": "1",
+            "id": "2TA4",
+            "longitude": "-96.2927017211914"
+        },
+        {
+            "continent": "SA",
+            "altitude": "3223",
+            "iso_country": "BR",
+            "latitude": "-27.21269989013672",
+            "name": "Nelson Pizzani Airport",
+            "municipality": "Monte Carlo",
+            "iso_region": "BR-SC",
+            "index": "2",
+            "id": "SIWE",
+            "longitude": "-50.95650100708008"
+        }
+    ],
+    "requestType": "find"
+}

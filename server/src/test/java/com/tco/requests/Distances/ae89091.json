@@ -1,0 +1,9 @@
+{
+	"requestType": "distances",
+	"places": [{"name": "pyramid","latitude": "29.977","longitude": "31.134"},
+		{"name": "tajmahal","latitude": "27.175","longitude": "78.042"},
+		{"name": "greatwallchina","latitude": "40.431","longitude": "116.570"},
+		{"name": "eiffeltower","latitude": "48.858","longitude": "2.294"}],
+	"earthRadius": 6371.0,
+	"distances": [4568, 3821, 8205, 3215]
+}

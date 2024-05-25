@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "north_pole", "latitude": "90", "longitude": "0"},
+                        {"name": "south_pole", "latitude": "-90", "longitude": "0"},
+                        {"name": "nowhere", "latitude": "0", "longitude": "0"},
+                        {"name": "elsewhere", "latitude": "0", "longitude": "180"}],
+    "earthRadius"    : 1.0,
+    "distances"      : [3, 2, 3, 2]
+}

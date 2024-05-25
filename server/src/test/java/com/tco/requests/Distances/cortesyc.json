@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "South Park Brewing", "latitude":  "39.2",  "longitude": "-105.9"},
+                      {"name": "Dillon Dam Brewery", "latitude":  "39.6", "longitude": "-106.0"},
+                      {"name": "South Park Brewing", "latitude":  "39.2", "longitude": "-105.9"},
+                      {"name": "Dillon Dam Brewery", "latitude":  "39.6", "longitude": "-106.0"},
+                      {"name": "South Park Brewing", "latitude":  "39.2", "longitude": "-105.9"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [45, 45, 45, 45, 45]
+}

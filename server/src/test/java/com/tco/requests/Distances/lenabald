@@ -1,0 +1,9 @@
+ {
+	"requestType": "distances",
+	"places": [{"name": "The Art Insitute of Chicago","latitude": "87.6244","longitude": "41.8787"},
+		        {"name": "Hilton-Americas Houston", "latitude": "95.3619","longitude": "29.7514"},
+		        {"name": "McDonalds- New Dehli", "latitude": "77.2202":"longitude": "28.6286"},
+		        {"name": "Piazza Novona", "latitude": "12.4745","longitude": "41.898"}],
+	"earthRadius": 777.00,
+	"distances": [103, 230, 522, 1048]
+} 

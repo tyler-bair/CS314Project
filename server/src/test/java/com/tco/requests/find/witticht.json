@@ -1,0 +1,63 @@
+{
+    "places": [
+        {
+            "name": "Apple Airport",
+            "latitude": "40.1432991027832",
+            "longitude": "-84.1718978881836",
+            "id": "0OH7",
+            "altitude": "1000",
+            "municipality": "Piqua",
+            "type": "small_airport",
+            "region": "US-OH",
+            "country": "US"
+        },
+        {
+            "name": "Apple 1 Heliport",
+            "latitude": "34.26029968261719",
+            "longitude": "-84.06639862060547",
+            "id": "11GE",
+            "altitude": "1273",
+            "municipality": "Cumming",
+            "type": "heliport",
+            "region": "US-GA",
+            "country": "US"
+        },
+        {
+            "name": "Applegate Airport",
+            "latitude": "40.391998291015625",
+            "longitude": "-92.56549835205078",
+            "id": "15MO",
+            "altitude": "997",
+            "municipality": "Queen City",
+            "type": "small_airport",
+            "region": "US-MO",
+            "country": "US"
+        },
+        {
+            "name": "Hanshell Flying Apple Airport",
+            "latitude": "39.581199645996094",
+            "longitude": "-83.6510009765625",
+            "id": "84OH",
+            "altitude": "1055",
+            "municipality": "Octa",
+            "type": "small_airport",
+            "region": "US-OH",
+            "country": "US"
+        },
+        {
+            "name": "Appleton Field",
+            "latitude": "50.9904",
+            "longitude": "-113.3703",
+            "id": "CAP9",
+            "altitude": "3080",
+            "municipality": "Strathmore",
+            "type": "small_airport",
+            "region": "CA-AB",
+            "country": "CA"
+        }
+    ],
+    "found": 13,
+    "match": "apple",
+    "limit": 5,
+    "requestType": "find"
+}

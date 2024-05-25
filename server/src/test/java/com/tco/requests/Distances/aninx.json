@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Location 1", "latitude":  "42.0",  "longitude": "51.1"},
+                        {"name": "Location 2", "latitude":  "-12.3", "longitude": "23.0"},
+                        {"name": "Location 3", "latitude":  "-11.3", "longitude": "21.0"},
+                        {"name": "Location 4", "latitude":  "-38.6", "longitude": "-31.2"}],
+  
+    "earthRadius"    : 43441.0,
+    "distances"      : [45594, 1667, 40718, 83290]
+  }  

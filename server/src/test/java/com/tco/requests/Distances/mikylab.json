@@ -1,0 +1,14 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Mt Everest", "latitude":  "27.9",  "longitude": "86.9"},
+                        {"name": "Aconcagua", "latitude":  "-32.6", "longitude": "-70.0"},
+                        {"name": "Denali", "latitude":  "63.0", "longitude": "-151.006989"},
+                        {"name": "Kilimanjaro", "latitude":  "-3.0", "longitude": "37.3"},
+                        {"name": "Mt. Elbrus", "latitude":  "43.3", "longitude": "42.4"},
+                        {"name": "Puncak Jaya", "latitude":  "-3.4", "longitude": "137.8"},
+                        {"name": "Vinson Massif", "latitude":  "-78.6", "longitude": "-85.1"}
+                    ],
+    "earthRadius"    : 6371.0,
+    "distances"       : [17740, 12770, 13308, 5173, 10703, 10558, 14364]
+  }
+  

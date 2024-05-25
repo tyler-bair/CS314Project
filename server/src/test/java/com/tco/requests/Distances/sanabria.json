@@ -1,0 +1,36 @@
+{
+	"requestType": "distances",
+	"places": [{
+			"name": "Pride Rock (Maybe)",
+			"latitude": "12.1298",
+			"longitude": "19.9410"
+		},
+		{
+			"name": "Garfield Elementary",
+			"latitude": "40.3993",
+			"longitude": "-105.0867"
+		},
+		{
+			"name": "Sentry Island",
+			"latitude": "61.1590",
+			"longitude": "-93.8745"
+		},
+		{
+			"name": "Weddel Sea",
+			"latitude": "-70.4223",
+			"longitude": "-34.4087"
+		},
+		{
+			"name": "John Wayne at the First Thanksgiving (Plymoth)",
+			"latitude": "41.8882",
+			"longitude": "-70.6348"
+		},
+		{
+			"name": "Area 51",
+			"latitude": "37.2513",
+			"longitude": "-155.8040"
+		}
+	],
+	"earthRadius": 2987,
+	"distances": [5574, 1140, 7195, 6013, 3284, 6801]
+}

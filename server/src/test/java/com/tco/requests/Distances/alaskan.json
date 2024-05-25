@@ -1,0 +1,12 @@
+{
+
+  "requestType"    : "distances",
+  "places"         : [{"name":"Alcanena, Portugal", "latitude":  "39.446892",  "longitude": "-8.635254"},
+                      {"name": "Parque Olavo Bilac", "latitude":  "-22.775871", "longitude": "-43.330078"},
+                      {"name": "Unknown", "latitude":  "-8.173572", "longitude": "-8.437500"},
+                      {"name": "Macdonnell Region, Australia", "latitude":  "-24.642752", "longitude": "137.460938"}],
+  "earthRadius"    : 510.5,
+  "distances"       : [625, 325, 1188, 1318]
+
+	
+}

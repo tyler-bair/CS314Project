@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Colorado State University", "latitude":  "40.6",  "longitude": "-105.1"},
+                      {"name": "Carleton University", "latitude":  "45.4", "longitude": "-75.7"},
+                      {"name": "Florida Institude of Technology", "latitude":  "28.1", "longitude": "-80.6"},
+                      {"name": "Carl Duisberg Centrum Berlin", "latitude":  "52.5", "longitude": "13.4"},
+                      {"name": "Universidad de los Andes", "latitude":  "4.6", "longitude": "-74.1"}],
+  "earthRadius"    : 9022.0,
+  "distances"       : [3449, 2792, 11078, 13358, 7164]
+}

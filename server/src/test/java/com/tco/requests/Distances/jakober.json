@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Karangura Peak", "latitude":  "0.4899",  "longitude": "30.0278"},
+                      {"name": "North Atlantic Ocean", "latitude":  "-0.0", "longitude": "-0.0"},
+                      {"name": "Area 51", "latitude":  "37.2431", "longitude": "115.7930"},
+                      {"name": "Mount Everest", "latitude":  "27.9881", "longitude": "86.9250"}],
+  "earthRadius"    : 6371000,
+  "distances"       : [3339342, 12261087, 2878935, 6772294]
+}

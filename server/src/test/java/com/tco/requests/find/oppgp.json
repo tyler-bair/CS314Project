@@ -1,0 +1,7 @@
+{
+  "requestType"    : "find",
+  "match"          : "xzx",
+  "limit"          : 20,
+  "found"          : 0,
+  "places"         : []
+}

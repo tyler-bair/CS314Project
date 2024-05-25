@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Artic Ocean", "latitude":  "89.0",  "longitude": "179.0"},
+                        {"name": "South Pole", "latitude":  "-90.0", "longitude": "180.0"},
+                        {"name": "Artic Ocean", "latitude":  "80.0", "longitude": "-180.0"},
+                        {"name": "Southern Ocean", "latitude":  "-70.0", "longitude": "-170.0"}],
+    "earthRadius"    : 6371.0,
+    "distances"       : [19904, 18903, 16691, 17682]
+}

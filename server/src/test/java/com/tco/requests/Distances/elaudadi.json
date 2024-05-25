@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Lucky Joe's Sidewalk Saloon", "latitude":  "40.5",  "longitude": "-105.0"},
+                      {"name": "Jack Brown's Beer & Burger Joint Huntsville", "latitude":  "34.7", "longitude": "-86.5"},
+                      {"name": "Bathtub Gin & Co.", "latitude":  "47.6", "longitude": "-122.3"},
+                      {"name": "D'Amato's Bakery.", "latitude":  "41.8", "longitude": "-87.6"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [1748, 3284, 2792, 1461]
+}

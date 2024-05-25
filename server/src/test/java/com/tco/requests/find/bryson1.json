@@ -1,0 +1,71 @@
+{
+    "match": "000",
+    "limit": 20,
+    "found": 9,
+    "places": [
+        {
+            "latitude": "27.547300338745117",
+            "name": "Scott 2000 Airport",
+            "index": "1",
+            "id": "23FD",
+            "longitude": "-80.66200256347656"
+        },
+        {
+            "latitude": "49.09111022949219",
+            "name": "Technopole 2000 Heliport",
+            "index": "2",
+            "id": "FR-0114",
+            "longitude": "6.231389045715332"
+        },
+        {
+            "latitude": "44.17166519165039",
+            "name": "Isola 2000 Airport",
+            "index": "3",
+            "id": "FR-0284",
+            "longitude": "7.163055896759033"
+        },
+        {
+            "latitude": "45.30993",
+            "name": "Aviosuperficie Pegasus 2000",
+            "index": "4",
+            "id": "IT-0055",
+            "longitude": "7.665453"
+        },
+        {
+            "latitude": "41.35775",
+            "name": "Pegaso Club 2000",
+            "index": "5",
+            "id": "IT-0127",
+            "longitude": "13.149013"
+        },
+        {
+            "latitude": "45.5444444",
+            "name": "Campo di Volo \"Rovasenda 2000\"",
+            "index": "6",
+            "id": "IT-0269",
+            "longitude": "8.2791667"
+        },
+        {
+            "latitude": "-22.892221450805664",
+            "name": "Tower 2000 Heliport",
+            "index": "7",
+            "id": "SDYK",
+            "longitude": "-43.11805725097656"
+        },
+        {
+            "latitude": "-33.413889",
+            "name": "Isidora 3000 Heliport",
+            "index": "8",
+            "id": "SHIS",
+            "longitude": "-70.597778"
+        },
+        {
+            "latitude": "-23.56166648864746",
+            "name": "Torre 2000 Heliport",
+            "index": "9",
+            "id": "SIIH",
+            "longitude": "-46.688331604003906"
+        }
+    ],
+    "requestType": "find"
+}

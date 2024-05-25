@@ -1,0 +1,9 @@
+{
+  "requestType"     : "distances",
+  "places"          : [{"name":"Carlsbad Cavern, New Mexico", "latitude":"32.1770846", "longitude":"-104.44098"},
+                       {"name":"Coors Field, Denver, Colorado", "latitude":"39.7558823", "longitude":"-104.9941781"},
+                       {"name":"Walt Disney World Resort, Orlando, Florida", "latitude":"28.3771857", "longitude":"-81.57074"},
+                       {"name":"Universal Studios Japan, Osaka", "latitude":"34.665442", "longitude":"135.4323382"}],
+  "earthRadius"     : 43441.0,
+  "distances"       : [5756, 16976, 81818, 70258]
+}

@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Circuit de Spa-Francorchamps", "latitude":  "50.4494497",  "longitude": "5.9583843"},
+                        {"name": "Circuit Zandvoort", "latitude":  "52.38859176635742", "longitude": "4.540948867797852"},
+                        {"name": "Yas Marina Circuit", "latitude":  "24.466998132", "longitude": "54.601830926"},
+                        {"name": "Circuit Of The Americas ", "latitude":  "30.135635", "longitude": "-97.644044"}],
+    "earthRadius"    : 420,
+    "distances"       : [15, 342, 874, 550]
+  }

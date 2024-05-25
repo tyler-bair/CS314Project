@@ -1,0 +1,11 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Buckingham Palace", "latitude":  "51.501364",  "longitude": "-0.141890"},
+                        {"name": "Eiffel Tower", "latitude":  "48.858370", "longitude": "2.294481"},
+                        {"name": "Leaning Tower of Pisa", "latitude":  "43.722952", "longitude": "10.396597"},
+                        {"name": "Real Madrid", "latitude":  "40.453039", "longitude": "-3.688334"}],
+
+    "earthRadius"    : 725.42,
+    "distances"       : [350,841,1213,1268]
+  }
+  

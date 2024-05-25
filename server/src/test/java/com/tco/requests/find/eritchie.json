@@ -1,0 +1,20 @@
+{
+  "requestType"    : "find",
+  "match"          : "ben",
+  "limit"          : 2,
+  "found"          : 262,
+  "places"         : [
+                      {
+                        "name":"Benes Service Airport", 
+                        "latitude": "41.074501037597656", 
+                        "longitude": "-96.90450286865234",
+                        "id":"02NE"
+                      },
+                      {
+                        "name":"Bentley Heliport",
+                        "latitude": "42.691200256347656", 
+                        "longitude": "-70.91230010986328",
+                        "id":"05MA"
+                      }
+    ]
+}

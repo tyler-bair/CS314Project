@@ -1,0 +1,29 @@
+{
+    "requestType": "find",
+    "match": "Messi",
+    "limit": 3,
+    "found": 4,
+    "places": [
+      {
+        "continent": "SA",
+        "id": "SWYB",
+        "latitude": "-23.275299072265625",
+        "longitude": "-46.25189971923828",
+        "name": "Chácara Messias Heliport"
+      },
+      {
+        "continent": "SA",
+        "id": "SSYJ",
+        "latitude": "-23.761943817138672",
+        "longitude": "-46.75555419921875",
+        "name": "Igreja Messiânica Mundial do Brasil Heliport"
+      },
+      {
+        "continent": "AF",
+        "id": "FAMH",
+        "latitude": "-22.356000900299996",
+        "longitude": "29.9862003326",
+        "name": "Musina(Messina) Airport"
+      }
+    ]
+  }

@@ -1,0 +1,8 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Freedom Tower", "latitude":  "40.713",  "longitude": "-74.013"},
+                        {"name": "Statue of Liberty", "latitude":  "40.689", "longitude": "-74.045"},
+                        {"name": "Niagara Falls", "latitude":  "43.096", "longitude": "-79.038"}],
+    "earthRadius"    : 2.0,
+    "distances"      : [0, 0, 0, 0]
+  } 

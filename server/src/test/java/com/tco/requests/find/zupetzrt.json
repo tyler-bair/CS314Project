@@ -1,0 +1,11 @@
+{
+  "requestType"   : "find",
+  "match"         : "Rudy",
+  "limit"         : 10,
+  "found"         : 1,
+  "places"        : [{"name": "Roseau Municipal Rudy Billberg Field",
+                      "latitude": "48.85599899",
+                      "longitude":"-95.6969986",
+                      "id": "KROX"
+                      }]
+}

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Homewood Toy & Hobby Shop", "latitude":  "33.48",  "longitude": "-86.79"},
+                      {"name": "Rock Park", "latitude":  "39.38", "longitude": "-104.86"},
+                      {"name": "Huntington Beach Pier", "latitude":  "33.66", "longitude": "-118.00"},
+		      {"name": "Morgan Library", "latitude":  "40.57", "longitude": "-105.08"}],
+  "earthRadius"    : 10000,
+  "distances"       : [2732, 2093, 2161, 2825]
+}

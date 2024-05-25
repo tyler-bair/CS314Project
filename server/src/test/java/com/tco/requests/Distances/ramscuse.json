@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Angkor Wat", "latitude":  "13.412469",  "longitude": "103.866989"},
+                      {"name": "Petra", "latitude":  "30.328453", "longitude": "35.444363"},
+                      {"name": "The Great Pyramid of Giza", "latitude":  "29.97833", "longitude": "31.13472"},
+                      {"name": "Stonehenge", "latitude":  "51.1789", "longitude": "1.8262"}],
+  "earthRadius"    : 3958.8,
+  "distances"       : [8270, 4476, 258, 2098]
+}

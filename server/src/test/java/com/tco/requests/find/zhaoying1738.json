@@ -1,0 +1,16 @@
+{
+  "requestType"   : "find",
+  "match"         : "Skyote",
+  "limit"         : 1,
+  "found"         : 2,
+  "places"        : [{"name":"Skyote",
+                      "latitude":"40.75803",
+                      "longitude":"-106.97200",
+                      "id": "CD02",
+                      "altitude":"8171",
+                      "municipality":"Steamboat Springs",
+                      "type":"airport",
+                      "region":"CO",
+                      "country":"United States"
+                      }]
+}

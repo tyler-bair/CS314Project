@@ -1,0 +1,26 @@
+{
+  "requestType"   : "find",
+  "match"         : "arizona",
+  "limit"         : 2,
+  "found"         : 7,
+  "places"        : [{"name":"Arizona Heart Hospital Heliport",
+                      "latitude":"33.481300354003906",
+                      "longitude":"-112.04000091552734",
+                      "id": "0AZ0",
+                      "altitude":"3000",
+                      "municipality":"Phoenix",
+                      "type":"heliport",
+                      "region":"Arizona",
+                      "country":"United States"
+                      },
+                     {"name":"Arizona State Prison",
+                      "latitude":"32.828899383499994",
+                      "longitude":"-109.565002441",
+                      "id":"1AZ3",
+                      "altitude":"5069",
+                      "municipality":"Safford",
+                      "type":"heliport",
+                      "region":"Arizona",
+                      "country":"United States"
+                      }]
+}

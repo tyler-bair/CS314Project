@@ -1,0 +1,15 @@
+{
+  "requestType"    : "find",
+  "match"          : "rdes",
+  "limit"          : 0,
+  "found"          : 1,
+  "places"         : [{"name":"Cordes Airport", 
+                       "latitude": "34.305599212646484", 
+                       "longitude": "-112.16500091552734",
+                       "id":"00AZ",
+                       "altitude":"3810",
+                       "municipality":"Cordes",
+                       "type":"small_airport",
+                       "continent":"NA"
+                       }]
+}

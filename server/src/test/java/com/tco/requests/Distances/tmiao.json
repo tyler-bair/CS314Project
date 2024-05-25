@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"shanghai", "latitude":  "31.2",  "longitude": "121.5"},
+                      {"name": "south pole", "latitude":  "-90.0", "longitude": "45.0"},
+                      {"name": "auckland", "latitude":  "-36.5", "longitude": "174.8"},
+                      {"name": "las vegas", "latitude":  "36.2", "longitude": "-115.1"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [13455, 5961, 10823, 10501]
+}

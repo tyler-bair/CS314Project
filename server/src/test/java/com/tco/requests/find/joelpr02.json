@@ -1,0 +1,56 @@
+{
+    "requestType"   : "find",
+    "match"         : "Vancouver",
+    "limit"         : 10,
+    "found"         : 8,
+    "places"        : [{"name": "Vancouver (Children & Women's Health Centre) Heliport",
+                        "id" : "CAK7",
+                        "latitude" : "49.2438419064",
+                        "longitude" : "-123.127095848",
+                        "continent" : "NA"
+                        },
+                        {"name": "Vancouver (General Hospital) Heliport",
+                        "id" : "CBK4",
+                        "latitude" : "49.261946699",
+                        "longitude" : "-123.124410957",
+                        "continent" : "NA"
+                        },
+                        {"name": "Vancouver (Vancouver Film Studios) Heliport",
+                        "id" : "CFS9",
+                        "latitude" : "49.260878059499994",
+                        "longitude" : "-123.028082103",
+                        "continent" : "NA"
+                        },
+                        {"name": "Vancouver / Burnaby (Global BC) Heliport",
+                        "id" : "cgl6",
+                        "latitude" : "49.2546009761",
+                        "longitude" : "-122.935177088",
+                        "continent" : "NA"
+                        },
+                        {"name": "Vancouver / Coquitlam Fire and Rescue Heliport",
+                        "id" : "cfr6",
+                        "latitude" : "49.2916156136",
+                        "longitude" : "-122.792148292",
+                        "continent" : "NA"
+                        },
+			{"name": "Vancouver Harbour Water Aerodrome",
+                        "id" : "CYHC",
+                        "latitude" : "49.2943992615",
+                        "longitude" : "-123.111000061",
+                        "continent" : "NA"
+                        },
+			{"name": "Vancouver International Airport",
+                        "id" : "CYVR",
+                        "latitude" : "49.193901062",
+                        "longitude" : "-123.183998108",
+                        "continent" : "NA"
+                        },
+			{"name": "Vancouver International Seaplane Base",
+                        "id" : "CAM9",
+                        "latitude" : "49.177047",
+                        "longitude" : "-123.168154",
+                        "continent" : "NA"
+                        }
+					     
+					  ]
+}

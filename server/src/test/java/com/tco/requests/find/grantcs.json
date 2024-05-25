@@ -1,0 +1,19 @@
+{
+    "requestType": "find",
+    "match": "flee",
+    "limit": 10,
+    "found": 2,
+    "places": [{
+            "id": "EGVF",
+            "name": "Fleetlands Heliport",
+            "latitude": "50.8353004456",
+            "longitude": "-1.1691700220099999"
+        },
+        {
+            "id": "IN73",
+            "name": "Fleet Field",
+            "latitude": "41.2223014831543",
+            "longitude": "-86.38610076904297"
+        }
+    ]
+}

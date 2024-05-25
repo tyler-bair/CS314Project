@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Westfall Hall", "latitude":  "40.5772228",  "longitude": "-105.1028464"},
+                      {"name": "Glenn Morris Fieldhouse", "latitude":  "40.5751082", "longitude": "-105.079821"},
+                      {"name": "CSU Veterinary Teaching Hospital", "latitude":  "40.5529465", "longitude": "-105.0830046"},
+                      {"name": "Summit Hall", "latitude":  "40.5703354", "longitude": "-105.1017859"}],
+  "earthRadius"    : 6371.0,
+  "distances"      : [1, 2, 2, 0]
+}

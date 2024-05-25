@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Denver, CO", "latitude":  "39.76433895",  "longitude": "-104.85511145"},
+                      {"name": "San Francisco, CA", "latitude":  "37.7577", "longitude": "-122.4376"},
+                      {"name": "New York City, NY", "latitude":  "40.69748809", "longitude": "-73.97968115"},
+                      {"name": "Paris, France", "latitude":  "48.85885487", "longitude": "2.34703498"}],
+
+  "earthRadius"    : 6371.0,
+  "distances"       : [1541, 4143, 5851, 7871]
+}

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Mount Everest", "latitude": "27.98791", "longitude": "86.92529"},
+                      {"name": "Death Valley", "latitude": "36.24662", "longitude": "-116.81700"},
+                      {"name": "Kola Superdeep Borehole", "latitude": "69.39593", "longitude": "30.60886"},
+		                  {"name": "Burj Khalifa", "latitude": "25.19720", "longitude": "55.27420"}],
+  "earthRadius"    : 3959.0,
+  "distances"       : [7737, 4952, 3215, 1959]
+}

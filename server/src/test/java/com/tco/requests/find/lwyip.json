@@ -1,0 +1,17 @@
+{
+  "requestType"    : "find",
+  "match"          : "aab",
+  "limit"          : 10,
+  "found"          : 2,
+  "places"         : [{
+       "latitude":"64.19090271", 
+			 "name":"Godthaab / Nuuk Airport",
+			 "id":"BGGH", 
+			 "longitude":"-51.6781005859"
+			},
+			{"latitude":"0.058189", 
+			 "name":"Dadaab Airstrip",
+			 "id":"KE-0108", 
+			 "longitude":"40.318055"
+			}]
+}

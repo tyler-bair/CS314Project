@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "tajMahal", "latitude": "27.1751", "longitude": "78.0421"},
+                      {"name": "louvre", "latitude": "48.8606", "longitude": "2.3376"},
+                      {"name": "niagara", "latitude": "43.0962", "longitude": "-79.0377"},
+		      {"name": "whiteHouse", "latitude": "38.8977", "longitude": "-77.0365"}],
+  "earthRadius"    : 82.0,
+  "distances"       : [87, 77, 6, 157]
+}

@@ -1,0 +1,11 @@
+{
+    "requestType"    : "distances",
+    "places": [
+      		{"name": "United Center", "latitude":  "41.8807",  "longitude": "-87.6742"},
+            {"name": "French Men's Reef Hotel", "latitude":  "18.3206", "longitude": "-64.9219"},
+            {"name": "Bo de B", "latitude":  "41.3812", "longitude": "2.1811"},
+            {"name": "The Bedford", "latitude":  "40.7201", "longitude": "-73.9556"}],
+
+    "earthRadius"    : 5,
+    "distances"      : [26, 53, 48, 9]
+  }  

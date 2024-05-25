@@ -1,0 +1,27 @@
+{
+    "requestType"   : "find",
+    "match"         : "ronaldo",
+    "limit"         : 5,
+    "found"         : 3,
+    "places"        : [{"name": "Edifício Ronaldo Sampaio Ferreira Heliport",
+                        "id" : "SIYU",
+                        "latitude" : "-23.599443435668945",
+                        "longitude" : "-46.68055725097656",
+                        "continent" : "SA",
+                        "municipality" : "São Paulo"
+                        },
+                        {"name": "Hospital Municipal Ronaldo Gazolla Heliport",
+                        "id" : "SSHP",
+                        "latitude" : "-22.825556",
+                        "longitude" : "-43.347222",
+                        "continent" : "SA",
+                        "municipality" : "Rio De Janeiro"
+                        },
+                        {"name": "Estância Aeronaldo Airport",
+                        "id" : "SWMZ",
+                        "latitude" : "-16.442777633666992",
+                        "longitude" : "-54.701942443847656",
+                        "continent" : "SA",
+                        "municipality" : "Rondonópolis"
+                        }]
+}

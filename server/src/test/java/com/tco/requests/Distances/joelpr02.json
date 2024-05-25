@@ -1,0 +1,12 @@
+{
+
+  "requestType"    : "distances",
+  "places"         : [{"name":"TCL Chinese Theatre", "latitude":  "34.102049",  "longitude": "-118.341161"},
+                      {"name": "The Castro Theatre", "latitude":  "37.762273", "longitude": "-122.436564"},
+                      {"name": "The Paris Theater", "latitude":  "40.764907", "longitude": "-73.975417"},
+                      {"name": "Music Box Theatre", "latitude":  "41.949259", "longitude": "-87.665481"}],
+  "earthRadius"    : 500.10,
+  "distances"       : [376, 2910, 800, 2027]
+
+	
+}

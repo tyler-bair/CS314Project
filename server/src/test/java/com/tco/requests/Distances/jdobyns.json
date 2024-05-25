@@ -1,0 +1,12 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Colorado State University", "latitude": "40.5734", "longitude": "-105.0865"},
+                      {"name": "Punta del Agua, Córdoba, Argentina", "latitude":  "-32.576307252", "longitude": "-63.8106205"},
+                      {"name": "Queenstown, New Zealand", "latitude":  "-44.99684595", "longitude": "168.69979885"},
+                      {"name": "Severozemel'skiy Gosudarstvennyy Prirodnyy Zakaznik, Russia", "latitude":  "79.3514441", "longitude": "97.8057697"},
+                      {"name": "Just East of GAQ Airport, Gao Mali", "latitude":  "16.24513267", "longitude": "0.00000000"},
+                      {"name": "Just South of Cascada La Escondida, Ecuador", "latitude":  "0.00000000", "longitude": "-77.40062803"}
+                     ],
+  "earthRadius"    : 7917.6,
+  "distances"       : [11388, 12317, 18074, 10462, 10775, 12530]
+}

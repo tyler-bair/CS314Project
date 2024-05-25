@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Miami, Florida", "latitude":  "25.8",  "longitude": "80.2"},
+                        {"name": "Bermuda", "latitude":  "32.3", "longitude": "64.7"},
+                        {"name": "San Juan, Puerto Rico", "latitude":  "18.5", "longitude": "66.1"},
+                        {"name": "Turks and Caicos", "latitude":  "21.7", "longitude": "71.8"}],
+    "earthRadius"    : 100.0,
+    "distances"       : [27, 22, 11, 15]
+  }
+  

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name", "Tropic of Capricorn", "latitude": "-23.4394", "longitude": "0.0"},
+                      {"name", "Tropic of Cancer", "latitude": "23.4394", "longitude": "0.0"}, 
+                      {"name", "Mount Everest", "latitude": "27.9860", "longitude": "86.9226"}, 
+                      {"name", "Challenger Deep", "latitude": "11.3733", "longitude": "142.5916"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [2813, 4602, 3270, 8547]
+}

@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Apple Campania", "latitude":  "41.0049285",  "longitude": "14.327523"},
+                        {"name": "Apple Dubai", "latitude":  "25.2108373", "longitude": "55.2755116"},
+                        {"name": "Apple Xinyi A13", "latitude":  "25.033964", "longitude": "121.564468"},
+			{"name": "Apple Canberra", "latitude":  "-35.280260", "longitude": "149.133710"}],
+    "earthRadius"    : 6371.0,
+    "distances"      : [4151, 6599, 7307, 16057]
+}

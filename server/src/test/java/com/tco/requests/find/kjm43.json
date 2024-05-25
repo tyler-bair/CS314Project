@@ -1,0 +1,21 @@
+{
+    "requestType" : "find",
+    "match" : "james",
+    "limit" : 3,
+    "found" : 35,
+    "places" : [{"id": "IE-0019",
+                 "name": "Ballyjamesduff Airstrip",
+                 "latitude": "53.863",
+                 "longitude": "-7.21383"
+                }, 
+                {"id": "CYJM",
+                 "name": "Fort St James Airport",
+                 "latitude": "54.39720153808594",
+                 "longitude": "-124.26300048828125"
+                }, 
+                {"id": "CAZ6",
+                 "name": "Fort St. James/Stuart River Seaplane Base",
+                 "latitude": "54.419",
+                 "longitude": "-124.271"
+                }]
+ }

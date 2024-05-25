@@ -1,0 +1,15 @@
+{
+    "requestType": "find",
+    "match": "Singapore",
+    "limit": 5,
+    "found": 1,
+    "places": [
+        {
+            "name": "Singapore Changi Airport",
+            "latitude": "1.35019",
+            "longitude": "103.994003",
+            "id": "WSSS",
+            "municipality": "Singapore"
+        }
+    ]
+}

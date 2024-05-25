@@ -1,0 +1,31 @@
+{
+  "match": "%\" limit 2; # Hijack the limit expression and set high value to DDOS the server",
+  "limit": 1,
+  "found": 50427,
+  "places": [{
+    "continent": "NA",
+    "altitude": "11",
+    "iso_country": "US",
+    "latitude": "40.07080078125",
+    "name": "Total Rf Heliport",
+    "municipality": "Bensalem",
+    "iso_region": "US-PA",
+    "index": "1",
+    "id": "00A",
+    "longitude": "-74.93360137939453"
+  },
+    {
+      "continent": "NA",
+      "altitude": "450",
+      "iso_country": "US",
+      "latitude": "59.94919968",
+      "name": "Lowell Field",
+      "municipality": "Anchor Point",
+      "iso_region": "US-AK",
+      "index": "2",
+      "id": "00AK",
+      "longitude": "-151.695999146"
+    }
+  ],
+  "requestType": "find"
+}

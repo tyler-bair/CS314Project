@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"	   : [{"name": "Colorado Springs", "latitude":  "38.8",  "longitude": "-104.8"},
+		      {"name": "San Antonio", "latitude":  "29.4",  "longitude": "-98.5"},
+		      {"name": "Fort Leavenworth", "latitude":  "39.4",  "longitude": "-94.9"},
+		      {"name": "Fort Meade", "latitude":  "39.1",  "longitude": "-76.7"}],
+  "earthRadius"    : 3440.0,
+  "distances"      : [645, 626, 845, 1307]
+}

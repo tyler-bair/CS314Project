@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Iryo-Seikyo Watari Hospital", "latitude":  "37.74718713",  "longitude": "140.48303701"},
+                        {"name": "Monument to Those Who SAved the World", "latitude":  "51.28060398", "longitude": "30.20783789"},
+                        {"name": "Hanford Reach National Monument", "latitude":  "46.62197598", "longitude": "-119.38578057"},
+			{"name": "Happy Fitness", "latitude":  "-15.32804556", "longitude": "-49.11755649"}],
+    "earthRadius"    : 6371.0,
+    "distances"       : [8019, 2247, 5181, 14178]
+  }

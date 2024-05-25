@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Taj Mahal", "latitude":  "27.1751",  "longitude": "78.0421"},
+                      {"name": "Great Pyrimid of Giza", "latitude":  "29.9792", "longitude": "31.1342"},
+                      {"name": "Statue of Zeus at Olympia", "latitude":  "37.6360", "longitude": "21.6247"},
+                      {"name": "Hanging Gardens of Babylon", "latitude":  "32.5", "longitude": "44.4"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [4559, 1222, 2144, 3285]
+}

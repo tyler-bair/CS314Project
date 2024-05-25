@@ -1,0 +1,35 @@
+{
+    "requestType": "find",
+    "match"      : "laser",
+    "limit"      : 17,
+    "found"      : 3,
+    "places"     : [
+        {
+            "continent"    : "NA",
+            "id"           : "SN84",
+            "latitude"     : "39.27080154418945",
+            "longitude"    : "-94.98770141601562",
+            "name"         : "Blaser's Airport",
+            "municipality" : "Leavenworth",
+            "type"         : "small_airport"
+        },
+        {
+            "continent"    : "NA",
+            "id"           : "NE85",
+            "latitude"     : "41.687198638916016",
+            "longitude"    : "-98.30259704589844",
+            "name"         : "Glaser Airport",
+            "municipality" : "Spalding",
+            "type"         : "small_airport"
+        },
+        {
+            "continent"    : "NA",
+            "id"           : "06TA",
+            "latitude"     : "30.90850067138672",
+            "longitude"    : "-97.11689758300781",
+            "name"         : "Glaser Field",
+            "municipality" : "Buckholts",
+            "type"         : "small_airport"
+        }
+    ]
+}

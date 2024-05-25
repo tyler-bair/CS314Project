@@ -1,0 +1,9 @@
+{
+    "requestType": "find",
+    "match": "NULL",
+    "limit": 10,
+    "found": 3,
+    "places"	:[{"id": "73II", "name": "Nulltown Wingnuts Ultralightport", "latitude": "39.57170104980469", "longitude": "-85.15859985351562"},
+                {"id": "YNUB", "name": "Nullabor Motel Airport", "latitude": "-31.441699981689453", "longitude": "130.90199279785156"},
+                {"id": "YNUL", "name": "Nullagine Airport", "latitude": "-21.913299560546875", "longitude": "120.197998046875"}]
+}

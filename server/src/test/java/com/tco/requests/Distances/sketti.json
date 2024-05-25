@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Red Rocks Ampitheatre", "latitude":  "39.666",  "longitude": "-105.205"},
+                      {"name": "Coors Field", "latitude":  "39.756", "longitude": "-104.994"},
+                      {"name": "Luxor Hotel & Casino", "latitude":  "36.096", "longitude": "-115.176"},
+                      {"name": "Empire State Building", "latitude":  "40.748", "longitude": "-73.986"}],
+  "earthRadius"    : 2400.0,
+  "distances"       : [8, 369, 1353, 994]
+}

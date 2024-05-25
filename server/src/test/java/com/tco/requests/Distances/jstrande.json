@@ -1,0 +1,14 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Grand Lake", "latitude":  "40.252",  "longitude": "-105.823"},
+                        {"name": "Dillon Reservoir", "latitude":  "39.609", "longitude": "-106.061"},
+                        {"name": "Canadaigua Lake", "latitude":  "42.781", "longitude": "-77.304"},
+                        {"name": "Hutt Lagoon", "latitude":  "-28.162", "longitude": "114.245"},
+                        {"name": "Attabad Lake", "latitude":  "36.318", "longitude": "74.866"},
+                        {"name": "Lake Kawaguchi", "latitude":  "35.517", "longitude": "138.752"},
+                        {"name": "Lake Lucerne", "latitude":  "47.014", "longitude": "8.437"},
+                        {"name": "Lake Wakatipu", "latitude":  "-45.089", "longitude": "168.535"},
+                        {"name": "Lake Tahoe", "latitude":  "39.096", "longitude": "-120.032"}],
+    "earthRadius"    : 5555.0,
+    "distances"       : [64.8032, 2109.9208, 15769.8587, 7209.6636, 4920.101, 8359.3342, 16103.2055, 10256.834, 1095.0755]
+}

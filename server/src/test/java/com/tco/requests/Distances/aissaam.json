@@ -1,0 +1,9 @@
+{
+	"requestType": "distances",
+	"places": [{"name": "khamis boys","latitude": "-4.0367","longitude": "39.6660"},
+		        {"name": "VPS hospital","latitude": "13.109593","longitude": "80.246666"},
+		        {"name": "The island in a lake on an island in a lake on an island","latitude": "69.793","longitude": "-108.241"},
+		        {"name": "Fresno Art Museum","latitude": "36.7708","longitude": "-119.7740"}],
+	"earthRadius": 6371.0,
+	"distances": [4869, 10784, 3739, 15820]
+}

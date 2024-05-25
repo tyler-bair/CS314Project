@@ -1,0 +1,14 @@
+{
+	"requestType": "find",
+	"match": "chicago",
+	"limit": 1,
+	"found": 35,
+	"places": [{
+		"id": "IL77",
+		"name": "Advocate Christ Medical Center Heliport",
+		"latitude": "41.724998474121094",
+		"longitude": "-87.72920227050781",
+		"municipality": "Chicago/Oak Lawn/",
+		"type": "heliport"
+	}]
+}

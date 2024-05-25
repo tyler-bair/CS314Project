@@ -1,0 +1,27 @@
+{
+  "requestType"    : "find",
+  "match"          : "tacoma",
+  "type"	   : ["airport"],
+  "limit"          : 10,
+  "found"          : 2,
+  "places"         : [{"name": "McChord Air Force Base", 
+                       "latitude": "47.1376991272", 
+                       "longitude": "-122.475997925",
+                       "id":"KTCM",
+                       "altitude":"322",
+                       "municipality":"Tacoma",
+                       "type":"airport",
+                       "region":"Washington",
+                       "country":"United States"
+                       },
+					   {"name":"Tacoma Narrows Airport", 
+                       "latitude": "47.26789856", 
+                       "longitude": "-122.5780029",
+                       "id":"KTIW",
+                       "altitude":"294",
+                       "municipality":"Tacoma",
+                       "type":"airport",
+                       "region":"Washington",
+                       "country":"United States"
+                       }]
+}

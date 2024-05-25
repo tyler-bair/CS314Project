@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Yellow Stone National Park", "latitude":  "44.42899",  "longitude": "-110.58871"},
+                      {"name": "Singapore Chestnut Nature Park", "latitude":  "1.37401", "longitude": "103.81708"},
+                      {"name": "Athlone, Ireland", "latitude":  "53.42349", "longitude": "-7.94042"},
+                      {"name": "Lory Student Center", "latitude":  "40.57489", "longitude": "-105.08468"}],
+  "earthRadius"    : 6378,
+  "distances"      : [13904, 11312, 6926, 622]
+}

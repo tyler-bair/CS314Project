@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Rainforest Cafe, Galveston", "latitude":  "29.2712758",  "longitude": "-94.8201795"},
+                      {"name": "Rainforest Cafe, Opry Mills", "latitude":  "36.2001944", "longitude": "-86.6916848"},
+                      {"name": "Rainforest Cafe, Gurnee Mills", "latitude":  "42.3869360372", "longitude": "-87.9564718645"},
+                      {"name": "Rainforest Cafe, Mall of America", "latitude":  "44.854865", "longitude": "-93.242215"},
+                      {"name": "Rainforest Cafe, Niagra Falls", "latitude":  "43.090736", "longitude": "-79.07335"}],
+  "earthRadius"    : 1003.0,
+  "distances"       : [179, 115, 81, 178, 293]
+}

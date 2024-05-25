@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Chongqing", "latitude":  "29.5",  "longitude": "106.5"},
+                      {"name": "Prague", "latitude":  "50.1", "longitude": "14.4"},
+                      {"name": "Suzhou", "latitude":  "31.3", "longitude": "120.6"},
+                      {"name": "Auckland", "latitude":  "36.9", "longitude": "174.8"}],
+  "earthRadius"    : 3000,
+  "distances"       : [1825, 3715, 3967, 2337]
+}

@@ -1,0 +1,36 @@
+{
+  "requestType"   : "find",
+  "match"         : "candle",
+  "limit"         : 3,
+  "found"         : 6,
+  "places"        : [{"name":"Candle 2 Airport",
+                      "latitude":"65.907699585",
+                      "longitude":"-161.925994873",
+                      "id": "AK75",
+                      "altitude":"15",
+                      "municipality":"Candle",
+                      "type":"small_airport",
+                      "region":"Alaska",
+                      "country":"United States"
+                      },
+                     {"name":"Candle Lake Airport",
+                      "latitude":"53.7682991027832",
+                      "longitude":"-105.30799865722656",
+                      "id":"CCL2",
+                      "altitude":"1650",
+                      "municipality":"Candle Lake",
+                      "type":"small_airport",
+                      "region":"Saskatchewan",
+                      "country":"Canada"
+                      },
+                     {"name":"Candlelight Farms Airport",
+                      "latitude":"41.56679916381836",
+                      "longitude":"-73.46620178222656",
+                      "id":"11N",
+                      "altitude":"675",
+                      "municipality":"New Milford",
+                      "type":"small_airport",
+                      "region":"Connecticut",
+                      "country":"United States"
+                      }]
+}

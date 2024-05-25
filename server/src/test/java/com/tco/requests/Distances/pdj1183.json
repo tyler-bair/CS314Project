@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"OU", "latitude":  "35.2058936",  "longitude": "-97.4457137"},
+                      {"name": "Permberton", "latitude":  "49.6416553", "longitude": "-123.5856127"},
+                      {"name": "Charon Point", "latitude":  "-22.44156127645314", "longitude": "149.8954948276315"},
+                      {"name": "Arnarstapi", "latitude":  "64.80876558298986", "longitude": "-23.6607643235288"}],
+  "earthRadius"    : 1,
+  "distances"       : [0, 0, 0, 0]
+  }

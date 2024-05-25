@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Buller Brewing Company Belgrano", "latitude": "-34.556072", "longitude": "-58.463825"},
+                      {"name": "Sydney Brewery Surry Hills", "latitude": "-33.88519791", "longitude": "151.20114047"},
+                      {"name": "1984 Brewing Company", "latitude": "-16.543730", "longitude": "-68.079040"},
+                      {"name": "Stone Angel Brewing Co.", "latitude": "49.82164792322139", "longitude": "-97.1546322018684"},
+                      {"name": "Shanghai Brewery Donghu", "latitude": "31.216114", "longitude": "121.454642"}],
+  "earthRadius"    : 6378,
+  "distances"       : [11814, 13047, 7921, 10243, 19665]
+}

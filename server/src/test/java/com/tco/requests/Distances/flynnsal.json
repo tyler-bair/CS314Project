@@ -1,0 +1,9 @@
+{
+  "requestType"   : "distances",
+  "places"         : [{"name": "Both Very Positive", "latitude": "90.0", "longitude": "179.9"},
+                      {"name": "Both Very Negative", "latitude": "-90.0", "longitude": "-180.0"},
+                      {"name": "Slight Change", "latitude": "-89.9", "longitude": "-179.9"},
+                      {"name": "Second Slight Change", "latitude": "-89.8", "longitude": "-179.8"}],
+  "earthRadius"   : 1000000.0,
+  "distances"     : [3141593, 1745, 1745, 3138102]
+}

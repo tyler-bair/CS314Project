@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Taco Bell, Shanghai", "latitude":  "31.2",  "longitude": "121.5"},
+                      {"name": "Taco Bell, New Delhi", "latitude":  "28.4", "longitude": "77.1"},
+                      {"name": "Taco Bell, Kuala Lumpur", "latitude":  "3.1", "longitude": "101.7"},
+					  {"name": "Taco Bell, Rotorua", "latitude":  "-38.1", "longitude": "176.2"},
+					  ],
+  "earthRadius"    : 256.0,
+  "distances"       : [171, 154, 357, 384]
+}

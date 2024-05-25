@@ -1,0 +1,47 @@
+{
+    "requestType" : "find",
+    "match" : "bred",
+    "limit" : 5,
+    "found" : 5,
+    "places" : [{
+        "name": "Aeroporto Elias Breder Airport",
+        "latitude": "-20.259721755981445",
+        "longitude": "-42.18388748168945",
+        "id":"SNJM",
+        "altitude":"2723",
+        "municipality":"Manhuaçu",
+        "type":"small_airport"
+    }, {
+        "name": "Bredasdorp Airport",
+        "latitude": "-34.665",
+        "longitude": "20.0628",
+        "id":"ZA-0103",
+        "altitude":"30",
+        "municipality":"Bredasdorp",
+        "type":"small_airport"
+    }, {
+        "name": "Bredenbury Airport ",
+        "latitude": "50.93333435058594",
+        "longitude": "-102.05000305175781",
+        "id":"CA-0060",
+        "altitude":"NULL",
+        "municipality":"NULL",
+        "type":"closed"
+    }, {
+        "name": "Bredlow Farm Airport",
+        "latitude": "34.5531005859375",
+        "longitude": "-92.09140014648438",
+        "id":"17AR",
+        "altitude":"236",
+        "municipality":"England",
+        "type":"small_airport"
+    }, {
+        "name": "UL-Gelände Bredstedt",
+        "latitude": "54.633425",
+        "longitude": "8.985745",
+        "id":"DE-0383",
+        "altitude":"92",
+        "municipality":"Bredstedt",
+        "type":"small_airport"
+    }]
+}

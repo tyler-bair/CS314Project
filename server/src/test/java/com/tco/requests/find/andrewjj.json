@@ -1,0 +1,16 @@
+{
+    "requestType"    : "find",
+    "match"          : "Rapid City",
+    "limit"          : 1,
+    "found"          : 1,
+    "places"         : [{"name":"Rapid City Regional Airport", 
+                         "latitude": "44.0452995300293", 
+                         "longitude": "-103.05699920654297",
+                         "id":"KRAP",
+                         "altitude":"3204",
+                         "municipality":"Rapid City",
+                         "type":"airport",
+                         "region":"South Dakota",
+                         "country":"United States"
+                         }]
+  }

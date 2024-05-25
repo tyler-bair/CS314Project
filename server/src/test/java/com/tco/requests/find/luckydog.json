@@ -1,0 +1,22 @@
+{
+  "requestType" : "find",
+  "match"       : "denver",
+  "limit"       : 3,
+  "found"       : 3,
+  "places"      : [
+                  {
+                    "name": "Denver Health Heliport",
+                    "latitude": "39.727500915527344",
+                    "longitude": "-104.99099731445312",
+                    "id": "CO35",
+                    "type": "heliport"
+                  },
+                  {
+                    "name": "Denver Federal Center Helistop",
+                    "latitude": "39.72330093383789",
+                    "longitude": "-105.11100006103516",
+                    "id": "CO39",
+                    "type": "heliport"
+                  }
+                  ]
+}

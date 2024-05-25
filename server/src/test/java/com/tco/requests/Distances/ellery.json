@@ -1,0 +1,12 @@
+
+
+
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Bellvue, Colorado", "latitude":  "36.3034916",  "longitude": "-105.365686"},
+                      {"name": "Lander, Wyoming", "latitude":  "42.832426", "longitude": "-108.727642"},
+                      {"name": "Moab, Utah", "latitude":  "38.577837", "longitude": "-109.549078"},
+                      {"name": "Rifle, Colorado", "latitude":  "39.552306", "longitude": "-107.769936"}],
+  "earthRadius"    : 500,
+  "distances"       : [61, 38, 15, 33]
+}

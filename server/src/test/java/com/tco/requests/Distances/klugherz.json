@@ -1,0 +1,9 @@
+{
+	"requestType"	: "distances",
+	"places"	  	: [{"name":"Persian Gulf", "latitude": "27.17724907", "longitude": "52.44509529"},
+				           {"name":"Point Nemo", "latitude": "-48.86833333", "longitude": "-123.38500000"},
+				           {"name":"Jökulsárlón", "latitude": "64.07618748", "longitude": "-16.20928232"},
+				           {"name":"Forum of Nerva", "latitude": "41.8937418", "longitude": "12.4873885"}],
+	"earthRadius"	: 6371.0,
+	"distances"		: [17570, 15512, 3077, 3970]
+}

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Cape Town", "latitude":  "-33.9",  "longitude": "18.5"},
+                      {"name": "Ashburton", "latitude":  "-43.9", "longitude": "171.7"},
+                      {"name": "Falun", "latitude":  "60.6", "longitude": "15.6"},
+                      {"name": "Durban", "latitude":  "-29.8", "longitude": "31.0"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [10972, 17564, 10117, 1266]
+}

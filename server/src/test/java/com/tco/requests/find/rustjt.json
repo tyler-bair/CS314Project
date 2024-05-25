@@ -1,0 +1,22 @@
+{
+  "requestType"    : "find",
+  "match"          : "heliport",
+  "limit"          : 2,
+  "found"          : 20,
+  "places"         : [{"name":"Total Rf Heliport", 
+                       "latitude": "40.07080078125", 
+                       "longitude": "-74.93360137939453",
+                       "id":"00A",
+                       "altitude":"11",
+                       "municipality":"Bensalem",
+                       "type":"heliport"
+                      },
+                      {"name":"Newport Hospital & Clinic Heliport", 
+                       "latitude": "35.608699798583984", 
+                       "longitude": "-91.25489807128906",
+                       "id":"00AR",
+                       "altitude":"237",
+                       "municipality":"Newport",
+                       "type":"airport"
+                      }]
+}

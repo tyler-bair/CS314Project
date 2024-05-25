@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Tangana Island", "latitude":  "51.865278",  "longitude": "-178.034444"},
+                      {"name": "Kiska Island", "latitude":  "52.026944", "longitude": "177.545278"},
+                      {"name": "Abijan", "latitude":  "5.554444", "longitude": "-4.083611"},
+                      {"name": "Luanda", "latitude":  "-8.983611", "longitude": "13.206667"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [363, 13667, 1503, 15117]
+}

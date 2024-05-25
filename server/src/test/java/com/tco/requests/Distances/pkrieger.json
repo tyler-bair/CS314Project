@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"North Pole", "latitude":  "90.0",  "longitude": "135.0"},
+                      {"name": "South Pole", "latitude":  "90.0", "longitude": "45.0"},
+                      {"name": "Greenwich", "latitude":  "51.477928", "longitude": "-0.001545"},
+                      {"name": "Null Island", "latitude":  "0", "longitude": "0"}],
+  "earthRadius"    : 6000,
+  "distances"       : [0, 4034, 5390, 9424]
+}

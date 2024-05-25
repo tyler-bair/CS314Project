@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Cairo", "latitude":  "30.0",  "longitude": "31.2"},
+                      {"name": "Cape Town", "latitude":  "-33.9",  "longitude": "18.4"},
+                      {"name": "CSU", "latitude":  "40.6",  "longitude": "-105.1"},
+                      {"name": "Rio de Janeiro", "latitude":  "-22.9", "longitude": "-43.2"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [7231, 15044, 9521, 9880]
+}

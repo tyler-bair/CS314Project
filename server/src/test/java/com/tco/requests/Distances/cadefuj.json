@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Punahou School", "latitude":  "21.2982",  "longitude": "-157.8266"},
+                        {"name": "Puerto La Boca", "latitude":  "32.7261", "longitude": "-117.1740"},
+                        {"name": "USTA National Campus", "latitude":  "34.9698", "longitude": "135.7550"},
+                        {"name": "Nintendo", "latitude": "34.9698", "longitude": "148.4094"}],
+    "earthRadius"    : 3185.5,
+    "distances"       : [2098, 1727, 5984, 3285]
+  }

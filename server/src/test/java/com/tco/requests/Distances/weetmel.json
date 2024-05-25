@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Mauna Loa", "latitude":  "14.472139",  "longitude": "-155.592207"},
+                        {"name": "Mount Kilimanjaro", "latitude":  "-3.067425", "longitude": "37.355627"},
+                        {"name": "Popocatepetl Volcano", "latitude":  "19.022422", "longitude": "-98.627901"},
+                        {"name": "Mount Fuji", "latitude": "35.360626", "longitude": "138.727363"}],
+    "earthRadius"    : 69911,
+    "distances"       : [191350, 165048, 150026, 83556]
+  }

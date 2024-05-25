@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Monarch Mountain", "latitude": "38.51221", "longitude": "-106.33200"},
+                      {"name": "Ski Cooper", "latitude": "39.36032", "longitude": "-106.30145"},
+                      {"name": "Sunlight Mountain resort", "latitude": "39.40003", "longitude": "-107.33873"},
+		                  {"name": "Crested Butte Mountain Resort", "latitude": "38.89927", "longitude": "-106.96576"}],
+  "earthRadius"    : 3959.0,
+  "distances"       : [59, 56, 40, 43]
+}

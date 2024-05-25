@@ -1,0 +1,60 @@
+{
+	"requestType": "find",
+	"match": "yuan",
+	"limit": 6,
+	"found": 13,
+	"places": [{
+			"name": "Hongyuan Airport",
+			"latitude": "32.53154",
+			"longitude":"102.35224",
+			"id": "AHJ",
+			"altitude":"11600",
+			"municipality":"Aba",
+			"type":"medium_airport"
+		},
+		{
+			"name": "Yuanmou Air Base",
+			"latitude": "25.737499237061",
+			"longitude":"101.88200378418",
+			"id": "CN-0012",
+			"altitude":"3810",
+			"municipality":"Yuanmou",
+			"type":"medium_airport"
+		},
+		{
+			"name": "Zhangjiakou Ningyuan Airport",
+			"latitude": "40.7386016846",
+			"longitude":"114.930000305",
+			"id": "CN-0024",
+			"altitude":"2347",
+			"municipality":"Zhangjiakou",
+			"type":"medium_airport"
+		},
+		{
+			"name": "Kaiyuan Air Base",
+			"latitude": "42.52579879760742",
+			"longitude":"123.98200225830078",
+			"id": "CN-0197",
+			"altitude":"NULL",
+			"municipality":"NULL",
+			"type":"medium_airport"
+		},
+		{
+			"name": "Taoyuan Air Base",
+			"latitude": "25.05660057067871",
+			"longitude":"121.2442626953125",
+			"id": "RCGM",
+			"altitude":"144",
+			"municipality":"Taoyuan City",
+			"type":"medium_airport"
+		},
+		{
+			"name": "Taiwan Taoyuan International Airport",
+			"latitude": "25.0777",
+			"longitude":"121.233002",
+			"id": "RCTP",
+			"altitude":"106",
+			"municipality":"Taipei",
+			"type":"large_airport"
+		}]
+}

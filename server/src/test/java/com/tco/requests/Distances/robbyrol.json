@@ -1,0 +1,8 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Dubai", "latitude":  "25.204",  "longitude": "55.270"},
+                      {"name":"Hartsfield-Jackson Atlanta International Airport", "latitude":  "33.640", "longitude": "-84.427"},
+                      {"name":"Mexico City", "latitude":  "19.432", "longitude": "-99.133"}],
+  "earthRadius"    : 3050,
+  "distances"       : [5844, 1028, 6861]
+}

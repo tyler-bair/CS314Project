@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"South Pole", "latitude":"-89.99","longitude":"0.01"},
+                     {"name":"Intl. Date Line", "latitude":"0","longitude":"-179.99"},
+                     {"name":"North Pole", "latitude":"89.99","longitude":"-0.01"},
+                     {"name":"Intl. Date Line", "latitude":"0","longitude":"179.99"}],
+  "earthRadius"    : 314159,
+  "distances"      : [493230, 493230, 493230, 493230]
+}

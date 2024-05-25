@@ -1,0 +1,13 @@
+{
+    "requestType"   : "find",
+    "match"         : "st",
+    "limit"         : 1,
+    "found"         : 6863,
+    "places"        : [{"name": "Goldstone /Gts/ Airport",
+                        "id" : "00CA",
+                        "latitude" : "35.350498199499995",
+                        "longitude" : "-116.888000488",
+                        "continent" : "NA",
+                        "municipality" : "Barstow"
+                        }]
+}

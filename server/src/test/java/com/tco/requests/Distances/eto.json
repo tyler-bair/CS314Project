@@ -1,0 +1,10 @@
+ {
+  "requestType"    : "distances",
+  "places"         : [{"name": "Mcmurdo Station", "latitude": "-77.8029", "longitude": "166.1215"},
+                      {"name": "North Pole", "latitude": "85.0000", "longitude": "135.0000"},
+                      {"name": "Beijing, China", "latitude": "39.9389", "longitude": "116.3975"},
+                      {"name": "Miami, Florida", "latitude": "25.7824", "longitude": "-80.2294"}
+                     ],
+  "earthRadius"    : 6378.14,
+  "distances"       : [18181, 5048, 12521, 13369]
+ }    

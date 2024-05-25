@@ -1,0 +1,14 @@
+{
+  "requestType"    : "find",
+  "match"          : "Kleis",
+  "limit"          : 15,
+  "found"          : 1,
+  "places"         : [{"name":"Kleis Airport", 
+                       "latitude": "42.29999923706055", 
+                       "longitude": "-90.7500991821289",
+                       "id": "IA30",
+                       "altitude": "1050",
+                       "municipality": "Zwingle",
+                       "type": "small_airport"
+                       }]
+}

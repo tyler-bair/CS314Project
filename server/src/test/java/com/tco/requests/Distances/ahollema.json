@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Telluride Ski Resort", "latitude":  "37.9363",  "longitude": "-107.8466"},
+                        {"name": "La Parva Ski Resort", "latitude":  "-33.3366", "longitude": "-70.2896"},
+                        {"name": "Zermatt Ski Resort", "latitude":  "46.0222", "longitude": "7.7523"},
+                        {"name": "Perisher Ski Resort", "latitude": "-36.4055", "longitude": "148.4094"}],
+    "earthRadius"    : 6363,
+    "distances"       : [8815, 11769, 16574, 13443]
+  }

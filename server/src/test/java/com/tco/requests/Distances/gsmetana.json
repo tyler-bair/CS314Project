@@ -1,0 +1,13 @@
+{
+ 
+    "requestType" : "distances",  
+    "places"      : [{"name":"Pikes Peak","latitude":"38.8409","longitude":"-105.0423"},
+                     {"name":"Pikes Peak","latitude":"38.8409","longitude":"-105.0423"},
+                     {"name":"Pikes Peak","latitude":"38.8409","longitude":"-105.0423"},
+                     {"name":"Longs Peak","latitude":"40.2549","longitude":"-105.6160"}],
+    
+    "earthRadius" : 100000,
+    "distances"   : [0,0,2586,2586]
+    
+    
+  }

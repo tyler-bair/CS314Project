@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Noble High School", "latitude":  "35.14",  "longitude": "-97.37"},
+                        {"name": "East High School", "latitude":  "39.74", "longitude": "-104.95"},
+                        {"name": "Jaws Sushi", "latitude":  "40.57", "longitude": "-105.09"}],
+    "earthRadius"    : 715.2,
+    "distances"      : [95, 1360, 10]
+ }
+
+

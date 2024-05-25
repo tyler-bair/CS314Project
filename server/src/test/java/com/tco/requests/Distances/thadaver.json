@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Grand Canyon, Arizona", "latitude":  "36.3034916",  "longitude": "-111.875964"},
+                      {"name": "Boulder, Utah", "latitude":  "37.9078355", "longitude": "-111.403172"},
+                      {"name": "Anasazi Canyon, Utah", "latitude":  "37.1447843", "longitude": "-110.939173"},
+                      {"name": "Buffalo Pass, Colorado", "latitude":  "40.5323147", "longitude": "-106.778640"}],
+  "earthRadius"    : 500,
+  "distances"       : [14, 7, 41, 51]
+}

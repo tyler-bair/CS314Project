@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Western Wall", "latitude":  "31.776759",  "longitude": "35.23451"},
+                        {"name": "Kaaba", "latitude":  "21.4225", "longitude": "39.826185"},
+                        {"name": "Basilica di San Giovanni in Laterano", "latitude":  "41.885881", "longitude": "12.505673"},
+                        {"name": "Ise Grand Shrine", "latitude": "34.455018", "longitude": "136.725153"}],
+    "earthRadius"    : 1738,
+    "distances"       : [476, 941, 2747, 2457]
+}

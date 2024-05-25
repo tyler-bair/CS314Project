@@ -1,0 +1,9 @@
+{
+	"requestType": "distances",
+	"places": [{"name": "CSU","latitude": "40.573386","longitude": "-105.086687"},
+		{"name": "Paintball San Marino","latitude": "43.965853","longitude": "12.499411"},
+		{"name": "Dolphins Barn","latitude": "53.333512","longitude": "-6.291658"},
+		{"name": "Derby Field","latitude": "40.070448","longitude": "-118.569181"}],
+	"earthRadius": 6969.0,
+	"distances": [9555,1882,8506,1250]
+}

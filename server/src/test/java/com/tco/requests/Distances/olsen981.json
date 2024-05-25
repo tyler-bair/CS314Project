@@ -1,0 +1,10 @@
+{
+  "requestType" : "distances",  
+  "places"      : [{"name":"Oslo, Norway","latitude":"59.9139","longitude":"10.7522"},
+                   {"name":"Null Island","latitude":"0","longitude":"0"},
+                   {"name":"Horse Tooth Rock","latitude":"40.540303","longitude":"-105.196731"},
+                   {"name":"Seattle Space Needle","latitude":"47.6205","longitude":"-122.3493"}],
+  
+  "earthRadius" : 3325.0,
+  "distances"   : [3510,5890,822,3824]
+}

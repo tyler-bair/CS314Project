@@ -1,0 +1,15 @@
+{
+   "requestType" : "find",
+   "match" : "Edward",
+   "where" : ["Naperville"],
+   "limit" : 1,
+   "found" : 1,
+   "places" : [{ "name": "Edward Hospital Heliport",
+                 "latitude": "41.76060104370117",
+                 "longitude": "-88.15029907226562",
+		 "id":"LL11",
+                 "altitude":"880",
+                 "municipality":"Naperville",
+                 "type":"heliport"
+                }]
+}

@@ -1,0 +1,9 @@
+{
+   "requestType"   :"distances",
+   "places"        : [{"name": "Longwood House", "latitude": "-15.9501", "longitude": "-5.6830"},
+                      {"name": "Milan Cathedral", "latitude": "45.4641", "longitude": "9.1919"},
+                      {"name": "Notre-Dame de Paris", "latitude": "48.8529", "longitude": "2.3497"},
+                      {"name": "Ajaccio", "latitude": "41.9192", "longitude": "8.7386"}],
+   "earthRadius"   : 6371.0,
+   "distances"     : [6991, 639, 917, 6603]
+}

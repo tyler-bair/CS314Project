@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Enbas Saut Waterfalls", "latitude":"13.849719", "longitude": "-61.003750"},
+		      {"name":"Le Verrier Coffee Farm", "latitude":"13.842336", "longitude":"-61.003740"},
+		      {"name":"Santiago de Cuba", "latitude":"20.0304", "longitude":"-75.8323"},
+		      {"name":"Peggys Cove", "latitude":"44.49", "longitude":"-63.91"},
+		      {"name": "Bermuda Triangle", "latitude": "25", "longitude": "-71"}],
+  "earthRadius"	   : 6371.0,
+  "distances"	   : [8, 17197, 19343, 22597, 16220]
+}

@@ -1,0 +1,23 @@
+{
+    "requestType" : "find",
+    "match" : "Jupiter",
+    "limit" : 3,
+    "found" : 2,
+    "places" : [{
+        "name": "Jupiter Medical Center Heliport",
+        "latitude": "26.925600051879883",
+        "longitude": "-80.09609985351562",
+        "id":"60FL",
+        "altitude":"15",
+        "municipality":"Jupiter",
+        "type":"heliport"
+    }, {
+        "name": "Jupiter I Platform Helipad",
+        "latitude": "19.520472",
+        "longitude": "-92.184506",
+        "id":"MX-0184",
+        "altitude":"50",
+        "municipality":"Zonda De Campeche",
+        "type":"heliport"
+    }]
+}

@@ -1,0 +1,33 @@
+{
+	"requestType": "distances",
+
+	"places": [{
+			"name": "Lory Student Center",
+			"latitude": "40.57",
+			"longitude": "-105.08"
+		},
+
+		{
+			"name": "Philip S Miller Library",
+			"latitude": "39.37",
+			"longitude": "-104.86"
+		},
+
+		{
+			"name": "The Statue of Liberty",
+			"latitude": "40.69",
+			"longitude": "-74.04"
+		},
+
+		{
+			"name": "The Empire State Building",
+			"latitude": "40.75",
+			"longitude": "-73.99"
+		}
+	],
+
+	"earthRadius": 6371.0,
+
+	"distances": [134, 2615, 7, 2608]
+
+}

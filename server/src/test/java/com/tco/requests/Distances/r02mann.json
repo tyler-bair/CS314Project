@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Ilulissat Rådhus", "latitude":  "69.220647",  "longitude": "-51.097567"},
+                      {"name": "Elias Jørgensen'ip", "latitude":  "69.222647", "longitude": "-51.097567"},
+		      {"name": "Knud Rasmussen Museum", "latitude":  "69.221215", "longitude": "-51.1033655"},
+                      {"name": "Pisiffik Hovedlager", "latitude":  "69.2218219", "longitude": "-51.097567"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [0.21, 0.28, 0.26, 0.12]
+}

@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Nova South, England", "latitude":  "51.5",  "longitude": "-0.14"},
+                      {"name": "Victoria Palace Theatre, England", "latitude":  "51.5",  "longitude": "-0.14"},
+                      {"name": "Chester Square Mews, England", "latitude":  "51.5",  "longitude": "-0.15"},
+                      {"name": "Saint Mark's Kennington, England", "latitude":  "51.48",  "longitude": "-0.11"}],
+  "earthRadius"    : 3440064.0,
+  "distances"       : [0, 373, 1917, 1643]
+}

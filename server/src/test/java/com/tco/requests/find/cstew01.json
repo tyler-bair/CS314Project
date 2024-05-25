@@ -1,0 +1,16 @@
+{
+   "requestType" : "find",
+   "limit" : 1,
+   "found" : 8,
+   "match" : "spang",
+   "places" : [{ 
+            "name":"Spangdahlem Air Base",
+            "latitude":"49.9726982",
+            "longitude":"6.6925001",
+		      "id":"SPM",
+            "altitude":"1151",
+            "municipality":"Spangdahlem",
+            "country":"Germany",
+            "type":"medium_airport"
+            }]
+}

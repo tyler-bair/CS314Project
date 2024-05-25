@@ -1,0 +1,9 @@
+{
+  "requestType"   : "distances",
+  "places"         : [{"name": "Beijing", "latitude": "89.0", "longitude": "98.0"},
+                      {"name": "Istanbul", "latitude": "-123.2", "longitude": "-182.0"},
+                      {"name": "New York", "latitude": "-98.2", "longitude": "-128.2"},
+                      {"name": "Berlin", "latitude": "-89.7", "longitude": "-115.8"}],
+  "earthRadius"   : 185643215898.0,
+  "distances"     : [123, 1289, 2346327, 129309]
+}

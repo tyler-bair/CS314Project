@@ -1,0 +1,13 @@
+{
+    "requestType": "find",
+    "match": "flora",
+    "limit": 1,
+    "found": 37,
+    "places"	:[{"name":"La Flora Airport",
+                      "latitude":"5.209722",
+                      "longitude":"-71.810556",
+                      "id":"SK-093",
+                      "municipality":"San Luis De Palenque",
+                      "type": "small_airport",
+                      }]
+}

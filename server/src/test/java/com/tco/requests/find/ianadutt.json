@@ -1,0 +1,15 @@
+{
+  "requestType"    : "find",
+  "match"          : "java",
+  "limit"          : 1,
+  "found"          : 4,
+  "places"         : [{"continent":"OC",
+                       "altitude":"10",
+                       "iso_country":"SB",
+                       "latitude":"-5.515",
+                       "name":"Ontong Java Atoll Airstrip",
+                       "municipality":"Ontong Java Atoll",
+                       "iso_region":"SB-ML, index=1",
+                       "id":"AGGQ",
+                       "longitude":"159.527777778"}]
+}

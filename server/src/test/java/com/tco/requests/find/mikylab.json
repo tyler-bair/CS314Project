@@ -1,0 +1,62 @@
+{
+	"requestType": "find",
+	"match": "sandy",
+	"limit": 5,
+	"found": 18,
+	"places": [{
+			"name": "Sandy River Airport",
+			"latitude": "45.401798248291016",
+			"longitude": "-122.22899627685547",
+			"id": "03S",
+			"altitude": "704",
+			"municipality": "Sandy",
+			"type": "airport",
+			"region": "Oregon",
+			"country": "United States"
+		},
+		{
+			"name": "Big Sandy Medical Center Heliport",
+			"latitude": "48.1796989440918",
+			"longitude": "-110.10900115966797",
+			"id": "0MT2",
+			"altitude": "2750",
+			"municipality": "Big Sandy",
+			"type": "heliport",
+			"region": "Montana",
+			"country": "United States"
+		},
+		{
+			"name": "Big Sandy Airpark",
+			"latitude": "36.279722",
+			"longitude": "-88.043611",
+			"id": "39TN",
+			"altitude": "632",
+			"municipality": "Big Sandy",
+			"type": "other",
+			"region": "Tennessee",
+			"country": "United States"
+		},
+		{
+			"name": "Sandy Point Airport",
+			"latitude": "38.488806",
+			"longitude": "-76.643633",
+			"id": "62MD",
+			"altitude": "20",
+			"municipality": "Prince Frederick",
+			"type": "airport",
+			"region": "Maryland",
+			"country": "United States"
+		},
+		{
+			"name": "Sandy Creek Airpark",
+			"latitude": "30.102399826049805",
+			"longitude": "-85.46240234375",
+			"id": "75FL",
+			"altitude": "13",
+			"municipality": "Panama City",
+			"type": "other",
+			"region": "Florida",
+			"country": "United States"
+		}
+	]
+}

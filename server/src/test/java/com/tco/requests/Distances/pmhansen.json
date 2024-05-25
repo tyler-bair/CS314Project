@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"place1", "latitude":  "45.5",  "longitude": "-105.1"},
+                      {"name": "place2", "latitude":  "45.5", "longitude": "-110.1"},
+                      {"name": "place3", "latitude":  "30.5", "longitude": "-110.1"},
+                      {"name": "csBuilding", "latitude":  "40.5741788", "longitude": "-105.0832947"},
+                      {"name": "theOval", "latitude":  "40.5761859", "longitude": "-105.0816326"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [390, 1668, 1208, 0, 548]
+}

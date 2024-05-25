@@ -1,0 +1,31 @@
+{
+   "requestType" : "find",
+   "match" : "Coco",
+   "limit" : 3,
+   "found" : 16,
+   "places" : [{ 
+                 "name": "Cocobeach Airport",
+                 "latitude": "1",
+                 "longitude": "9.583000183105469",
+                 "id":"F00C",
+                 "altitude":"69",
+                 "municipality":"Cocobeach",
+                 "type":"small_airport"},
+               { 
+                 "name": "Odeco Cocodrie Heliport",
+                 "latitude": "29.249399185180664",
+                 "longitude": "-90.66200256347656",
+                 "id":"LA85",
+                 "altitude":"3",
+                 "municipality":"Cocodrie",
+                 "type":"heliport"},
+               { 
+                 "name": "Tenneco-Cocodrie Heliport",
+                 "latitude": "29.237199783325195",
+                 "longitude": "-90.66590118408203",
+                 "id":"LA86",
+                 "altitude":"3",
+                 "municipality":"Cocodrie",
+                 "type":"heliport"}
+              ]
+}

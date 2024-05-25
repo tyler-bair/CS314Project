@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Somewhere in the Atlantic", "latitude":  "0",  "longitude": "0"},
+                      {"name": "The North Pole", "latitude":  "90", "longitude": "0"},
+                      {"name": "Melbourne", "latitude":  "-37.8206", "longitude": "144.966367"},
+                      {"name": "Somewhere in the Atlantic", "latitude": "0", "longitude": "0"}],
+  "earthRadius"    : 1000000000,
+  "distances"       : [1570796326, 2230890321, 2274191136, 0]
+}

@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "NorthPole", "latitude":  "90.0",  "longitude": "0.0"},
+                      {"name": "EquatorPrimeMeridian", "latitude":  "0.0", "longitude": "0.0"},
+                      {"name": "SouthPole", "latitude":  "-90.0", "longitude": "0.0"},
+                      {"name": "EquatorIntDateLine", "latitude":  "0.0", "longitude": "180.0"}],
+
+  "earthRadius"    : 6371.0,
+  "distances"       : [10002, 10002, 10002, 10002]
+}

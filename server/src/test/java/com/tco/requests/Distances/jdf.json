@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Nashville", "latitude":  "36.1866",  "longitude": "-86.7852"},
+                      {"name": "Chicago", "latitude":  "41.8337", "longitude": "-87.7319"},
+                      {"name": "Nashville", "latitude":  "36.1866", "longitude": "-86.7852"},
+                      {"name": "Chicago", "latitude":  "41.8337", "longitude": "-87.7319"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [632.245, 632.245, 632.245, 632.245]
+}

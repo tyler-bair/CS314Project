@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Colorado State University", "latitude": "40.5734", "longitude": "-105.0865"},
+                        {"name": "West Ottawa Public High School", "latitude":  "42.834758", "longitude": "-86.154227"},
+                        {"name": "Charing Cross, London", "latitude":  "51.507351", "longitude": "-0.127598"},
+                        {"name": "Kyiv, Ukraine", "latitude":  "50.450015", "longitude": "30.524225"}
+                       ],
+    "earthRadius"    : 3.67,
+    "distances"       : [1, 4, 1, 5]
+  }

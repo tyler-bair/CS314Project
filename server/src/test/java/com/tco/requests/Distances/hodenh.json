@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Pikes Peak", "latitude": "38.8409", "longitude": "-105.0423"},
+                      {"name": "Mount Baker", "latitude": "48.7766", "longitude": "-121.8144"},
+                      {"name": "Strawberry Peak", "latitude": "34.2835", "longitude": "-118.1205"},
+                      {"name": "Mount Mitchell", "latitude": "35.7650", "longitude": "-82.2643"}
+                     ],
+  "earthRadius"    : 12.7562,
+  "distances"       : [3.4729, 3.2838, 6.5091, 4.0805]
+}

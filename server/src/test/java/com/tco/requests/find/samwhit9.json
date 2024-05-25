@@ -1,0 +1,17 @@
+{
+    "requestType"   : "find",
+    "match"         : "Colorado",
+    "limit"         : 1,
+    "found"         : 26,
+    "places"        : [{"name":"Barra del Colorado Airport",
+                        "latitude":"10.768699645996094",
+                        "longitude":"-83.58560180664062",
+                        "id": "MRBC",
+                        "altitude":"3",
+                        "municipality":"Pococi",
+                        "type":"medium_airport",
+                        "region":"Limon",
+                        "country":"Costa Rica"
+                        }]
+}
+  

@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Colorado State University", "latitude":  "40.6",  "longitude": "-105.1"},
+                        {"name":"DisneyLand", "latitude":  "33.81",  "longitude": "-117.92"},
+                        {"name":"Schlitterbahn Waterpark", "latitude":  "29.27",  "longitude": "-94.85"},
+                        {"name":"DisneyWorld", "latitude":  "28.37",  "longitude": "-81.57"}],
+    "earthRadius"    : 6887.84,
+    "distances"      : [1,477, 2421, 1400, 2745]
+  }

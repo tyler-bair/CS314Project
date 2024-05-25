@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Morgan Library", "latitude":  "40.342",  "longitude": "-105.046"},
+                      {"name": "Morgan Library", "latitude":  "40.342", "longitude": "-105.046"},
+                      {"name": "Sydney", "latitude":  "-33.505", "longitude": "150.556"},
+                      {"name": "Taipei 101", "latitude":  "25.021", "longitude": "121.335"}],
+  "earthRadius"    : 6371.0
+  "distances"       : [0, 13448, 7200, 11300]
+}

@@ -1,0 +1,18 @@
+{
+    "requestType"    : "find",
+    "match"          : "enzo",
+    "limit"          : 1,
+    "found"          : 13,
+    "places"         : [
+	{"name":"Aviosuperficie Renzo Storai", 
+	    "latitude": "43.96583", 
+	    "longitude": "11.458056",
+	    "id":"IT-0165",
+	    "altitude":"889",
+	    "municipality":"Vicchio del Mugello (FI)",
+	    "type":"small_airport",
+	    "region":"Tuscany",
+	    "country":"Italy",
+	    "url":"http://www.aviostorai.com"
+	}]
+}

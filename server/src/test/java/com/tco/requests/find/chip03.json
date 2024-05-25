@@ -1,0 +1,21 @@
+{
+  "requestType": "find",
+  "match": "Alberta",
+  "limit": 2,
+  "found": 4,
+  "places": [{"name": "Alberta Ultralightport",
+              "latitude": "38.39670181274414",
+              "longitude": "-84.4636001586914",
+              "id": "8KY0",
+              "type": "small_airport",
+              "country": "United States"
+            },
+            {
+              "name": "Alberta Airport",
+              "latitude": "-27.984167098999023",
+              "longitude": "28.39444351196289",
+              "id": "ZA-0017",
+              "type": "small_airport",
+              "country": "South Africa"
+            }]
+}

@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Machu Picchu", "latitude":  "-13.162695",  "longitude": "-72.543858"},
+                        {"name": "Chichen-Itzá", "latitude":  "20.679694", "longitude": "-88.570002"},
+                        {"name": "The Great Pyramid of Giza", "latitude":  "29.980084", "longitude": "31.134362"},
+                        {"name": "Rod Laver Arena", "latitude":  "37.821413", "longitude": "144.978902"}],
+    "earthRadius"    : 1776.0,
+    "distances"       : [1157, 3193, 3895, 3660]
+  }
+  

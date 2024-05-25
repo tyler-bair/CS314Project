@@ -1,0 +1,36 @@
+{
+    "requestType"   : "find",
+    "match"         : "rams",
+    "limit"         : 5,
+    "found"         : 7,
+    "places"        : [{"name": "Ramsy Farm Airport",
+                        "id" : "1MI4",
+                        "latitude" : "45.83890151977539",
+                        "longitude" : "-87.32240295410156",
+                        "continent" : "NA"
+                        },
+                        {"name": "Sudbury/Ramsey Lake Seaplane Base",
+                        "id" : "CNB8",
+                        "latitude" : "46.47999954223633",
+                        "longitude" : "-80.98529815673828",
+                        "continent" : "NA"
+                        },
+                        {"name": "Bad Bramstedt Heliport",
+                        "id" : "EDHX",
+                        "latitude" : "53.9428",
+                        "longitude" : "9.9055",
+                        "continent" : "EU"
+                        },
+                        {"name": "Ramsele Airport",
+                        "id" : "ESUR",
+                        "latitude" : "63.490299224853516",
+                        "longitude" : "16.483400344848633",
+                        "continent" : "EU"
+                        },
+                        {"name": "Ramstein Air Base",
+                        "id" : "ETAR",
+                        "latitude" : "49.4369010925293",
+                        "longitude" : "7.600279808044434",
+                        "continent" : "EU"
+                        }]
+}

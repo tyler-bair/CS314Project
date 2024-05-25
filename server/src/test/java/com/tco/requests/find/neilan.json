@@ -1,0 +1,98 @@
+{
+	"requestType": "find",
+	"match": "apple",
+	"limit": 18,
+	"found": 13,
+	"places": [{
+			"latitude": "40.1432991027832",
+			"name": "Apple Airport",
+			"index": "1",
+			"id": "0OH7",
+			"longitude": "-84.1718978881836"
+		},
+		{
+			"latitude": "34.26029968261719",
+			"name": "Apple 1 Heliport",
+			"index": "2",
+			"id": "11GE",
+			"longitude": "-84.06639862060547"
+		},
+		{
+			"latitude": "40.391998291015625",
+			"name": "Applegate Airport",
+			"index": "3",
+			"id": "15MO",
+			"longitude": "-92.56549835205078"
+		},
+		{
+			"latitude": "39.581199645996094",
+			"name": "Hanshell Flying Apple Airport",
+			"index": "4",
+			"id": "84OH",
+			"longitude": "-83.6510009765625"
+		},
+		{
+			"latitude": "50.9904",
+			"name": "Appleton Field",
+			"index": "5",
+			"id": "CAP9",
+			"longitude": "-113.3703"
+		},
+		{
+			"latitude": "45.461899",
+			"name": "Apple River Airport",
+			"index": "6",
+			"id": "CCA7",
+			"longitude": "-64.821404"
+		},
+		{
+			"latitude": "50.8091890506",
+			"name": "RAF Appledram",
+			"index": "7",
+			"id": "GB-0098",
+			"longitude": "-0.807495117188"
+		},
+		{
+			"latitude": "34.575298309299995",
+			"name": "Apple Valley Airport",
+			"index": "8",
+			"id": "KAPV",
+			"longitude": "-117.185997009"
+		},
+		{
+			"latitude": "45.227500915527344",
+			"name": "Appleton Municipal Airport",
+			"index": "9",
+			"id": "KAQP",
+			"longitude": "-96.00430297851562"
+		},
+		{
+			"latitude": "44.258098602299995",
+			"name": "Appleton International Airport",
+			"index": "10",
+			"id": "KATW",
+			"longitude": "-88.5190963745"
+		},
+		{
+			"latitude": "45.67839813232422",
+			"name": "Apple Valley Airport",
+			"index": "11",
+			"id": "OR61",
+			"longitude": "-123.18599700927734"
+		},
+		{
+			"latitude": "37.76259994506836",
+			"name": "Apple Grove Airport",
+			"index": "12",
+			"id": "VA31",
+			"longitude": "-76.34629821777344"
+		},
+		{
+			"latitude": "-27.20133399963379",
+			"name": "Appleby Airport",
+			"index": "13",
+			"id": "ZA-0022",
+			"longitude": "26.903499603271484"
+		}
+	]
+}

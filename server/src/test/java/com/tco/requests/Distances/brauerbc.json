@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Amsterdam, Netherlands", "latitude":  "52.4",  "longitude": "4.9"},
+                      {"name": "Hong Kong, China", "latitude":  "22.3", "longitude": "114.2"},
+                      {"name": "Fort Collins, United States", "latitude":  "40.6", "longitude": "-105.1"},
+                      {"name": "Hamburg, Germany", "latitude":  "53.6", "longitude": "10.0"}],
+  "earthRadius"    : 3285.46,
+  "distances"       : [4781, 6146, 4044, 189]
+}

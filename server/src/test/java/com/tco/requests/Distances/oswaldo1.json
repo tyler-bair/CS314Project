@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Walmart Quetzaltenango", "latitude":  "14.84978",  "longitude": "-91.53559"},
+                        {"name": "Walmart Supercenter Birmingham", "latitude":  "33.53577", "longitude": "-86.72004"},
+                        {"name": "Wal-Mart Shadong", "latitude":  "36.08253", "longitude": "120.35578"},
+                        {"name": "Target Farmington", "latitude":  "36.76915", "longitude": "-108.14787"}],
+    "earthRadius"    : 5604.0,
+    "distances"       : [1877, 10361, 9231, 2586]
+}

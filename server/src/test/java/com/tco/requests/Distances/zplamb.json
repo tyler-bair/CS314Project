@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "950 South Taft Hill RD", "latitude": "40.57", "longitude": "-105.11"},
+                        {"name": "1801 West Mountain Ave", "latitude": "40.58", "longitude": "-105.11"},
+                        {"name": "Mulberry And City Park", "latitude": "40.58", "longitude": "-105.10"},
+                        {"name": "1335 West Elizabeth", "latitude": "40.57", "longitude": "-105.10"}],
+    "earthRadius"    : 6371,
+    "distances"      : [1, 1, 1, 1]
+}

@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Guinness Cameroon", "latitude":  "4.04827",  "longitude": "9.70428"},
+                      {"name": "Windmills Craftworks", "latitude":  "12.982383", "longitude": "77.721821"},
+                      {"name": "Hops & Rocks Craft Pub", "latitude":  "47.912947", "longitude": "106.909014"},
+                      {"name": "Paun Craft Brewery", "latitude":  "42.4739", "longitude": "19.1737"},
+                      {"name": "Soma Beer", "latitude":  "42.00666667", "longitude": "2.82305556"}],
+  "earthRadius"    : 6371,
+  "distances"       : [7526, 4729, 6519, 1345, 4276]
+}

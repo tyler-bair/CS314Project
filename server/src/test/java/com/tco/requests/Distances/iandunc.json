@@ -1,0 +1,11 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Crypto.com Arena", "latitude":  "34.042988000407874",  "longitude": "-118.26723095708401"},
+                        {"name": "Ball Arena", "latitude":  "39.748689475200344", "longitude": "-105.00762426058964"},
+                        {"name": "American Airlines Center", "latitude":  "32.790421409763056", "longitude": "-96.81027168612212"},
+                        {"name": "TD Garden", "latitude":  "42.36621383325482", "longitude": "-71.0621460028226"},
+                        {"name": "Madison Square Madison", "latitude":  "40.75051260706095", "longitude": "-73.99347088938883"}
+                    ],
+    "earthRadius"    : 6371.0,
+    "distances"       : [1339, 1066, 2497, 3033, 3948]
+  }

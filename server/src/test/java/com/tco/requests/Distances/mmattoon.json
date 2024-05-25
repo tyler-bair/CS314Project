@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "CSU", "latitude": "40.57", "longitude": "-105.08"},
+                      {"name": "Kangerlussuaq", "latitude": "67.0", "longitude": "-50.72"},
+                      {"name": "New York City", "latitude": "40.71", "longitude": "-74.0"},
+		                  {"name": "New York City", "latitude": "40.71", "longitude": "-74.0"}],
+  "earthRadius"    : 3456.78,
+  "distances"       : [2383, 1765, 0, 1415]
+}

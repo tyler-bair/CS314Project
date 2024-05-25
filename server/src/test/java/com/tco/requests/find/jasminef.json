@@ -1,0 +1,29 @@
+{
+    "requestType": "find",
+    "match": "hanoi",
+    "limit": 5,
+    "found": 3,
+    "places": [
+        {
+            "name": "Bach Mai Airfield",
+            "latitude": "20.993155822800002",
+            "longitude": "105.832993984",
+            "id": "VN-0003",
+            "municipality": "Hanoi"
+        },
+        {
+            "name": "Gia Lam Air Base ",
+            "latitude": "21.04050064086914",
+            "longitude": "105.88600158691406 ",
+            "id": "VVGL",
+            "municipality": "Hanoi"
+        },
+        {
+            "name": "Noi Bai International Airport",
+            "latitude": "21.221200942993164",
+            "longitude": "105.80699920654297",
+            "id": "VVNB",
+            "municipality": "Hanoi"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "requestType":"find",
+  "match":"Rice",
+  "limit":3,
+  "found":25,
+  "places":[{"continent":"NA",
+             "altitude":"221",
+             "iso_country":"US",
+             "latitude":"35.0527992249",
+             "name":"Rice-Bell Field Airport",
+             "municipality":"Forrest City",
+             "iso_region":"US-AR",
+             "index":"1",
+             "id":"14AR",
+             "longitude":"-90.6750030518"
+            },
+            {"continent":"NA",
+             "altitude":"660",
+             "iso_country":"US",
+             "latitude":"40.152801513671875",
+             "name":"Rice Private Heliport",
+             "municipality":"Covington",
+             "iso_region":"US-IN",
+             "index":"2","id":"2II9",
+             "longitude":"-87.30809783935547"
+            },
+            {"continent":"NA",
+             "altitude":"2434",
+             "iso_country":"US",
+             "latitude":"47.998199462890625",
+             "name":"Rice Ranch Airport",
+             "municipality":"Grand Coulee",
+             "iso_region":"US-WA",
+             "index":"3","id":"2WA6",
+             "longitude":"-119.08899688720703"
+            }]
+}

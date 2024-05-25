@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"New York City, New York", "latitude":  "40.735556",  "longitude": "-74.008889"},
+                      {"name": "Redmond, Washington", "latitude":  "47.678611", "longitude": "-122.120556"},
+                      {"name": "Kyoto, Japan", "latitude":  "35.031944", "longitude": "135.766389"},
+                      {"name": "Frankfurt, Germany", "latitude":  "50.120833", "longitude": "8.683611"}],
+  "earthRadius"    : 2123.67,
+  "distances"       : [1283, 2671, 3073, 2068]
+}

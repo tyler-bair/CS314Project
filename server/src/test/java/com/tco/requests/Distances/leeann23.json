@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "The Outpost", "latitude":  "40.60199",  "longitude": "-105.06825"},
+                        {"name": "The Cottages", "latitude":  "40.59013", "longitude": "-105.05556"},
+                        {"name": "Museo de las Tres Colonias", "latitude":  "40.59337", "longitude": "-105.05658"},
+                        {"name": "Crowne at Old Town North", "latitude":  "40.60060", "longitude": "-105.07383"}],
+    "earthRadius"    : 6371,
+    "distances"       : [1, 0, 1, 0]
+  }

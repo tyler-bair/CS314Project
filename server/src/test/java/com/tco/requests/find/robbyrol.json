@@ -1,0 +1,12 @@
+{
+    "requestType"   : "find",
+    "match"         : "atlanta",
+    "limit"         : 1,
+    "found"         : 36,
+    "places"        : [{"name": "Atlanta Airport",
+                        "id" : "55H",
+                        "latitude" : "43.813499450683594",
+                        "longitude" : "-115.13500213623047",
+                        "municipality" : "Atlanta"
+                        }]
+}

@@ -1,0 +1,38 @@
+{
+  "requestType"    : "find",
+  "match"          : "st",
+  "type"           : ["heliport"], 
+  "where"          : ["United States"],
+  "limit"          : 3,
+  "found"          : 6,
+  "places"         : [{"name": "Bailey Generation Station Heliport", 
+                       "latitude": "41.644500732421875", 
+                       "longitude": "-87.122802734375",
+                       "id":"00II",
+                       "altitude":"600",
+                       "municipality":"Chesterton",
+                       "type":"heliport",
+                       "region":"Indiana",
+                       "country":"United States"
+		      },
+		      {"name": "St Mary Medical Center Heliport", 
+                       "latitude": "41.51139831542969", 
+                       "longitude": "-87.2605972290039",
+                       "id":"00IN",
+                       "altitude":"634",
+                       "municipality":"Hobart",
+                       "type":"heliport",
+                       "region":"Indiana",
+                       "country":"United States"
+                       },
+                      {"name": "St Mary Medical Center Heliport", 
+                       "latitude": "33.778900146484375", 
+                       "longitude": "-118.18599700927734",
+                       "id":"50CA",
+                       "altitude":"174",
+                       "municipality":"Long Beach",
+                       "type":"heliport",
+                       "region":"California",
+                       "country":"United States"
+                      }]
+}

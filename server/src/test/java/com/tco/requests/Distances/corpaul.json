@@ -1,0 +1,9 @@
+{
+	"requestType": "distances",
+	"places": [{"name": "18755 G Avenue", "latitude": "42.43","longitude": "-93.37"},
+		{"name": "County Roscommon", "latitude": "53.62","longitude": "-8.38"},
+		{"name": "Natrona County", "latitude": "42.91","longitude": "-107.34"},
+		{"name": " Pioneer Avenue", "latitude": "52.434648","longitude": "-0.827136"}],
+	"earthRadius": 4390.22 ,
+	"distances": [239043, 20599, 269043, 45092]
+}

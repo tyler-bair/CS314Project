@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Rock Mountain National Park", "latitude":  "40.361585963324764",  "longitude": "-105.68330787579377"},
+                      {"name": "Lincoln, Nebraska", "latitude":  "40.813222792221815", "longitude": "-96.6970666612075"},
+                      {"name": "Dallas, Texas", "latitude":  "32.93762564910691", "longitude": "-96.92049696421564"},
+                      {"name": "Pueblo, Colorado", "latitude":  "38.255559208474516", "longitude": "-104.60139192069083"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [762, 874, 912, 250]
+}

@@ -1,0 +1,17 @@
+{
+  "requestType"    : "find",
+  "match"          : "kgeg",
+  "limit"          : 0,
+  "found"          : 1,
+  "places"         : [{"name":"Spokane International Airport", 
+                       "latitude": "47.61989974975586", 
+                       "longitude": "-117.53399658203125",
+                       "id":"KGEG",
+                       "altitude":"2376",
+                       "municipality":"Spokane",
+                       "type":"airport",
+                       "region":"Washington",
+                       "country":"United States",
+                       "url":"http://en.wikipedia.org/wiki/Spokane_International_Airport"
+                       }]
+}

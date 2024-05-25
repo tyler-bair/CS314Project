@@ -1,0 +1,13 @@
+{
+  "requestType" : "distances",
+  "places"      : [{"name": "Mount Everest", "latitude": "27.99", "longitude": "86.93"},
+                   {"name": "Dead Sea Depression", "latitude": "31.53", "longitude": "35.48"},
+                   {"name": "North Pole", "latitude": "90.00", "longitude": "135.00"},
+                   {"name": "South Pole", "latitude": "90.00", "longitude": "45.00"},
+                   {"name": "Khovd", "latitude": "47.98", "longitude": "91.64"},
+                   {"name": "Indian Ocean", "latitude": "-47.98", "longitude": "91.64"},
+                   {"name": "South Pacific Ocean", "latitude": "-47.98", "longitude": "-88.36"},
+                   {"name": "Lake Superior", "latitude": "47.98", "longitude": "-88.36"}],
+  "earthRadius" : 6371,
+  "distances"   : [4919, 6608, 40008, 4306, 10672, 9345, 10670, 11555]
+}

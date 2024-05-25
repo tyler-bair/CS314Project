@@ -1,0 +1,14 @@
+{
+	"requestType": "find",
+	"match": "caw",
+	"limit": 10,
+	"found": 1,
+	"places": [{
+		"name": "Cawleys South Prairie Airport",
+		"latitude": "47.15230178833008",
+		"longitude": "-122.09400177001953",
+		"altitude": "690",
+		"municipality": "South Prairie",
+		"type": "small_airport"
+	}]
+}

@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Seattle, WA", "latitude":  "47.6190432079426",  "longitude": "-122.3240393383455"},
+                      {"name": "Vancouver, BC", "latitude":  "49.30540558158295", "longitude": "-123.1375432649873"},
+                      {"name": "Calgary, AB", "latitude":  "51.03912074829003", "longitude": "-114.1321696741354"},
+                      {"name": "Polebridge, MT", "latitude":  "48.85548382455708", "longitude": "-114.2552469502316"}],
+
+  "earthRadius"   : 2500.0,
+  "distances"      : [77, 263, 95, 240]
+}

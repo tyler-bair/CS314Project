@@ -1,0 +1,10 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Place 1", "latitude":  "0.0",  "longitude": "0.0"},
+                        {"name": "North Pole", "latitude":  "90.0", "longitude": "-135.0"},
+                        {"name": "South Pole", "latitude":  "-90.0", "longitude": "45.0"},
+                        {"name": "Great Wall of China", "latitude": "40.43", "longitude": "116.57"}],
+    "earthRadius"    : 6371.0,
+    "distances"       : [10008, 20015, 14503, 12221]
+  }
+

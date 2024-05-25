@@ -1,0 +1,27 @@
+{
+  "requestType"    : "find",
+  "match"          : "Salem",
+  "type"		   : ["closed"],
+  "limit"          : 20,
+  "found"          : 2,
+  "places"         : [{"name": "Tnt Heliport", 
+                       "latitude": "41.45289993286133", 
+                       "longitude": "-72.24960327148438",
+                       "id":"07CT",
+                       "altitude":"430",
+                       "municipality":"Salem",
+                       "type":"closed",
+                       "region":"Connecticut",
+                       "country":"United States"
+                       },
+					   {"name":"Jerusalem Airport", 
+                       "latitude": "31.864700317383", 
+                       "longitude": "35.219200134277",
+                       "id":"OJJR",
+                       "altitude":"2485",
+                       "municipality":"Jerusalem",
+                       "type":"closed",
+                       "region":"Jerusalem",
+                       "country":"Palestine"
+                       }]
+}

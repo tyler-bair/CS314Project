@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Ashburton Hospital", "latitude":  "-43.893995",  "longitude": "171.747038"},
+                      {"name": "Thác Đăk Tuar", "latitude":  "12.478874", "longitude": "108.465558"},
+                      {"name": "Estatua de Simón Bolívar", "latitude":  "4.598053", "longitude": "-74.076081"},
+                      {"name": "Mackey Elementary School", "latitude":  "32.710762", "longitude": "-96.588536"}],
+  "earthRadius"    : 1.2,
+  "distances"      : [2, 3, 1, 2]
+}

@@ -1,0 +1,11 @@
+{
+    "distances": [91, 90, 72, 241],
+    "earthRadius": 6371.0,
+    "places": [
+        {"longitude": "-105.2062589", "latitude": "40.6638282", "name": "Teds Place"},
+        {"longitude": "-106.2891007", "latitude": "40.7314924", "name": "Walden"},
+        {"longitude": "-107.3058257", "latitude": "40.4859209", "name": "Hayden"},
+        {"longitude": "-107.9345408", "latitude": "40.0490619", "name": "Meeker"}
+    ],
+    "requestType": "distances"
+}

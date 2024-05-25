@@ -1,0 +1,9 @@
+{
+    "requestType"   : "distances",
+    "places"        : [{"name": "Linköping, Sweden", "latitude":  "58.4",  "longitude": "15.6"},
+                        {"name": "Glasgow, Scotland", "latitude":  "55.9", "longitude": "-4.3"},
+                        {"name": "Reading, United States", "latitude":  "40.3", "longitude": "-75.9"},
+                        {"name": "Beirut, Lebanon", "latitude":  "33.9",  "longitude": "35.5"}],
+    "earthRadius"   :  1981.0,
+    "distances"     : [381, 1655, 2853, 963]
+}

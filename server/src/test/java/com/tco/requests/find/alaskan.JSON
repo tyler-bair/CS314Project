@@ -1,0 +1,17 @@
+{
+  "requestType": "find",
+  "match": "Merrill Field",
+  "limit": 1,
+  "found": 1,
+  "places": [
+    {
+      "name": "Merrill Field",
+      "latitude": "61.2135009765625",
+      "longitude": "-149.843994140625",
+      "id": "PAMR",
+      "altitude": "137",
+      "municipality": "Anchorage",
+      "type": "medium_airport"
+    }
+  ]
+}

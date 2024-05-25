@@ -1,0 +1,15 @@
+{
+    "requestType"   : "distances",
+    "places"        : [ {"name": "Copper Kettle Brewing Company", "latitude": "39.692761", "longitude": "-104.891285"},
+                        {"name": "South African Breweries", "latitude": "-33.83783", "longitude":  "25.54191"},
+                        {"name": "BeerHouse & Craft Kitchen", "latitude": "54.6780379", "longitude":  "25.2849308"},
+                        {"name": "Arctic Circle 1", "latitude": "89.337852", "longitude": "179.551973"},
+                        {"name": "Arctic Circle 2", "latitude": "88.170039", "longitude": "-178.579638"},
+                        {"name": "Arctic Circle 3", "latitude": "87.993578", "longitude": "1.023589"},
+                        {"name": "North Pole", "latitude": "90.0", "longitude": "-0.0"},
+                        {"name": "South Pole", "latitude": "-90.0", "longitude": "0.0"},
+                        {"name": "Raya Brewing", "latitude": "12.7761365", "longitude": "39.5303249"},
+                        {"name": "Opposite Raya", "latitude": "-12.7761365", "longitude": "-39.5303249"}],
+    "earthRadius"   : 37952.0,
+    "distances"     : [92978, 58631, 23792, 773, 2541, 1329, 119229, 68077, 54606, 53069]
+}

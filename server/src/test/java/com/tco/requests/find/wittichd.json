@@ -1,0 +1,15 @@
+{
+	"requestType": "find",
+	"match": "purple",
+	"limit": 1,
+	"found": 1,
+	"places": [{
+		"name": "Purple Springs Airport",
+		"latitude": "49.6877",
+		"longitude": "-111.875202",
+		"id": "CA-0669",
+		"altitude": "2870",
+		"municipality": "Purple Springs",
+		"type": "closed"
+	}]
+}

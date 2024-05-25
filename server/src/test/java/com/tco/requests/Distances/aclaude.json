@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Seattle, WA", "latitude":  "47.6062",  "longitude": "122.3321"},
+                      {"name": "Las Vegas, NV", "latitude":  "36.1716", "longitude": "115.1391"},
+                      {"name": "Milwaukee, WI", "latitude":  "43.0389", "longitude": "87.9065"},
+                      {"name": "London, United Kingdom", "latitude":  "51.5072", "longitude": "0.1276"}],
+
+  "earthRadius"    : 6378.0,
+  "distances"      : [1404, 2445, 6290, 7708]
+}

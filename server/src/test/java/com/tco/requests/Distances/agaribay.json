@@ -1,0 +1,10 @@
+
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Ocean", "latitude":  "24.0",  "longitude": "-60.0"},
+                    {"name":"Ocean", "latitude":  "24.0",  "longitude": "-60.0"},
+                    {"name":"Ocean", "latitude":  "24.0",  "longitude": "-60.0"},
+                    {"name":"Ocean", "latitude":  "24.0",  "longitude": "-60.0"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [0, 0, 0, 0]
+}

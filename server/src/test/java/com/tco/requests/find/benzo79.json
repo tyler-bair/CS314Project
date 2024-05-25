@@ -1,0 +1,36 @@
+{
+  "requestType"   : "find",
+  "match"         : "colorado",
+  "limit"         : 3,
+  "found"         : 26,
+  "places"        : [{"name":"Colorado Plains Medical Center Heliport",
+                      "latitude":"40.2610917",
+                      "longitude":"-103.7963389",
+                      "id": "0CD1",
+                      "altitude":"4356",
+                      "municipality":"Fort Morgan",
+                      "type":"heliport",
+                      "region":"Colorado",
+                      "country":"United States"
+                      },
+                     {"name":"Colorado Antique Field",
+                      "latitude":"40.122501373291016",
+                      "longitude":"-105.1719970703125",
+                      "id":"8CO7",
+                      "altitude":"5069",
+                      "municipality":"Niwot",
+                      "type":"airport",
+                      "region":"Colorado",
+                      "country":"United States"
+                      },
+                     {"name":"Colorado do Oeste Airport",
+                      "latitude":"-13.113405",
+                      "longitude":"-60.524276",
+                      "id":"BR-0080",
+                      "altitude":"",
+                      "municipality":"Colorado do Oeste",
+                      "type":"airport",
+                      "region":"Roraima",
+                      "country":"Brazil"
+                      }]
+}

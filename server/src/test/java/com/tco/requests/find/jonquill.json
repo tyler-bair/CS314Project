@@ -1,0 +1,20 @@
+{
+    "requestType" : "find",
+    "match" : "London",
+    "type": ["airport"],
+    "where":["Canada"],
+    "limit" : 1,
+    "found" : 1,
+    "places" : [
+        {
+            "id": "CLC2",
+            "name": "London / Chapeskie Field",
+            "latitude": "43.0682983398",
+            "longitude": "-81.1256027222",
+            "altitude":"930",
+            "type":"small_airport",
+            "country":"Canada",
+            "url" : "https://en.wikipedia.org/wiki/London/Chapeskie_Field_Airport"
+        }
+    ]
+ }

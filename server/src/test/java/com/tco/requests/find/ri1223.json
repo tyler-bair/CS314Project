@@ -1,0 +1,37 @@
+{
+   "requestType" : "find",
+   "match" : "Riley",
+   "limit" : 5,
+   "found" : 10,
+   "places" : [
+        {
+          "id" : "0FA5",
+          "name" : "Briley Farm Seaplane Base",
+          "latitude" : "28.5727778",
+          "longitude" :"-81.6286111"
+        },
+        {        
+          "id" : "12TN",
+          "name" : "Riley Creek Airport",
+          "latitude" : "35.823699951171875", 
+          "longitude" : "-84.53880310058594"
+        },
+        {        
+          "id" : "1NC5",
+          "name" : "Riley Field",
+          "latitude" : "35.93320083618164", 
+          "longitude" : "-78.34860229492188"
+        },       
+        {        
+          "id" : "23IN",
+          "name" : "J W Riley Hospital For Children Heliport",
+          "latitude" : "39.77690124511719", 
+          "longitude" : "-86.18060302734375"
+        },  
+        {        
+          "id" : "4IN7",
+          "name" : "Riley Field",
+          "latitude" : "40.300899505615234", 
+          "longitude" : "-87.22920227050781"
+        }]
+}

@@ -1,0 +1,18 @@
+{
+  "requestType"    : "find",
+  "match"          : "Ljubljana",
+  "type":["airport"],
+  "limit"          : 1,
+  "found"          : 1,
+  "places"         : [{"name":"Ljubljana Jože Pu?nik Airport", 
+                       "latitude": "46.223701", 
+                       "longitude": "14.4576",
+                       "id":"LJLJ",
+                       "altitude":"1273",
+                       "municipality":"Ljubljana",
+                       "type":"large_airport",
+                       "region":"SI-061",
+                       "country":"SI",
+                       "url":"http://en.wikipedia.org/wiki/Ljubljana_Jo%C5%BEe_Pu%C4%8Dnik_Airport"
+                       }]
+}

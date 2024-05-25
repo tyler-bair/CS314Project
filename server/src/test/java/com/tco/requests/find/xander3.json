@@ -1,0 +1,118 @@
+{
+    "places": [
+        {
+            "name": "Total Rf Heliport",
+            "latitude": "40.07080078125",
+            "longitude": "-74.93360137939453",
+            "id": "00A",
+            "altitude": "11",
+            "municipality": "Bensalem",
+            "type": "heliport",
+            "region": "US-PA",
+            "country": "US"
+        },
+        {
+            "name": "Lowell Field",
+            "latitude": "59.94919968",
+            "longitude": "-151.695999146",
+            "id": "00AK",
+            "altitude": "450",
+            "municipality": "Anchor Point",
+            "type": "small_airport",
+            "region": "US-AK",
+            "country": "US"
+        },
+        {
+            "name": "Epps Airpark",
+            "latitude": "34.86479949951172",
+            "longitude": "-86.77030181884766",
+            "id": "00AL",
+            "altitude": "820",
+            "municipality": "Harvest",
+            "type": "small_airport",
+            "region": "US-AL",
+            "country": "US"
+        },
+        {
+            "name": "Newport Hospital & Clinic Heliport",
+            "latitude": "35.608699798583984",
+            "longitude": "-91.25489807128906",
+            "id": "00AR",
+            "altitude": "237",
+            "municipality": "Newport",
+            "type": "heliport",
+            "region": "US-AR",
+            "country": "US"
+        },
+        {
+            "name": "Cordes Airport",
+            "latitude": "34.305599212646484",
+            "longitude": "-112.16500091552734",
+            "id": "00AZ",
+            "altitude": "3810",
+            "municipality": "Cordes",
+            "type": "small_airport",
+            "region": "US-AZ",
+            "country": "US"
+        },
+        {
+            "name": "Goldstone /Gts/ Airport",
+            "latitude": "35.350498199499995",
+            "longitude": "-116.888000488",
+            "id": "00CA",
+            "altitude": "3038",
+            "municipality": "Barstow",
+            "type": "small_airport",
+            "region": "US-CA",
+            "country": "US"
+        },
+        {
+            "name": "Cass Field",
+            "latitude": "40.62220001220703",
+            "longitude": "-104.34400177001953",
+            "id": "00CO",
+            "altitude": "4830",
+            "municipality": "Briggsdale",
+            "type": "small_airport",
+            "region": "US-CO",
+            "country": "US"
+        },
+        {
+            "name": "Grass Patch Airport",
+            "latitude": "28.64550018310547",
+            "longitude": "-82.21900177001953",
+            "id": "00FA",
+            "altitude": "53",
+            "municipality": "Bushnell",
+            "type": "small_airport",
+            "region": "US-FL",
+            "country": "US"
+        },
+        {
+            "name": "Ringhaver Heliport",
+            "latitude": "28.846599578857422",
+            "longitude": "-82.34539794921875",
+            "id": "00FD",
+            "altitude": "25",
+            "municipality": "Riverview",
+            "type": "heliport",
+            "region": "US-FL",
+            "country": "US"
+        },
+        {
+            "name": "River Oak Airport",
+            "latitude": "27.230899810791016",
+            "longitude": "-80.96920013427734",
+            "id": "00FL",
+            "altitude": "35",
+            "municipality": "Okeechobee",
+            "type": "small_airport",
+            "region": "US-FL",
+            "country": "US"
+        }
+    ],
+    "match": "%",
+    "limit": 10,
+    "requestType": "find",
+    "found": 50427
+}

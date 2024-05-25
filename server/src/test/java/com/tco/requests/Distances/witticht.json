@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name":"Reykjavik, Iceland", "latitude":  "64.1466",  "longitude": "-21.9426"},
+                        {"name": "Castle Rock, Colorado", "latitude":  "39.3722", "longitude": "-104.8561"},
+                        {"name": "Dallas, Texas", "latitude":  "32.7767", "longitude": "-96.7970"},
+                        {"name": "Mexico City, Mexico", "latitude":  "19.4326", "longitude": "-99.1332"}],
+    "earthRadius"    : 500.0,
+    "distances"       : [443, 76, 107, 607]
+  }

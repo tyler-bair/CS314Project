@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Lemhi County Airport", "latitude":  "45.12",  "longitude": "-113.89"},
+                      {"name": "Action Watersports at Lakeside Marina", "latitude":  "38.96", "longitude": "-119.95"},
+                      {"name": "Lake Cottage Azores", "latitude":  "37.86", "longitude": "-25.76"},
+                      {"name": "St. Augustine", "latitude":  "29.90", "longitude": "-81.31"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [847, 7790, 5129, 3302]
+}

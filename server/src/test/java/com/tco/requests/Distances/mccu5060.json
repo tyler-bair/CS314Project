@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"santefe", "latitude":  "35.7",  "longitude": "-105.9"},
+                      {"name": "taos", "latitude":  "36.4", "longitude": "-105.6"},
+                      {"name": "creede", "latitude":  "37.8", "longitude": "-106.9"},
+                      {"name": "durango", "latitude":  "37.3", "longitude": "-107.9"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [82, 194, 104, 252]
+}

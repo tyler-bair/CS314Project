@@ -1,0 +1,8 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Turtle Beach", "latitude":  "17.884",  "longitude": "-77.766"},
+                      {"name":"Southwest Conservation Area", "latitude":  "-42.750", "longitude": "145.509"},
+                      {"name":"Kangaatsiaq", "latitude":  " 68.307", "longitude": "-53.457"}],
+  "earthRadius"    : 0.0,
+  "distances"       : [0, 0, 0]
+}

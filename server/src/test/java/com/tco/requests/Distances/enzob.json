@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Crosshaven, Ireland", "latitude": "51.80107056346101", "longitude": "-8.293121155365592"},
+                      {"name": "Carrigaline, Ireland", "latitude": "51.817942090796585", "longitude": "-8.391637689826126"},
+                      {"name": "Dublin, Ireland", "latitude": "53.34975458188411", "longitude": "-6.260310136488518"},
+		      {"name": "Dingle, Ireland", "latitude": "52.14088066936085", "longitude": "-10.264019508466804"}],
+  "earthRadius"    : 1233.0,
+  "distances"       : [1, 43, 58, 27]
+}

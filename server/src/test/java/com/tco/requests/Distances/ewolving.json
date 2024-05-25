@@ -1,0 +1,9 @@
+{ 
+  "requestType"    : "distances", 
+  "places"         : [{"name": "Colorado State University", "latitude":  "40.57616",  "longitude": "-105.08462"}, 
+                      {"name": "North Boulder Park", "latitude":  "40.02981", "longitude": "-105.28665"}, 
+                      {"name": "Mariposa Basin Park", "latitude":  "35.16991", "longitude": "-106.69655"} , 
+                      {"name": "Big Ben", "latitude":  "51.50798", "longitude": "-0.12680"}], 
+  "earthRadius"    : 1.0, 
+  "distances"       : [0,0,1,1]
+}

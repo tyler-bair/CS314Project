@@ -1,0 +1,13 @@
+{
+ 
+  "requestType" : "distances",  
+  "places"      : [{"name":"abu dhabi","latitude":"24.3868","longitude":"54.5586"},
+                   {"name":"new york","latitude":"40.6974","longitude":"-73.9796"},
+                   {"name":"scotland","latitude":"57.7469","longitude":"-4.6873"},
+                   {"name":"canterbury","latitude":"51.2785","longitude":"1.0838"}],
+  
+  "earthRadius" : 6371.0,
+  "distances"   : [11014,5168,676,12474]
+  
+  
+}

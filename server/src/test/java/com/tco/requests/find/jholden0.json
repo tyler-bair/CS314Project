@@ -1,0 +1,26 @@
+{
+  "requestType"   : "find",
+  "match"         : "tamworth",
+  "limit"         : 6,
+  "found"         : 2,
+  "places"        : [{"name":"Tamworth Airport",
+                      "latitude":"-31.0839004517",
+                      "longitude":"150.847000122",
+                      "id": "YSTW",
+                      "altitude":"1334",
+                      "municipality":"Tamworth",
+                      "type":"airport",
+                      "region":"New South Wales",
+                      "country":"Australia"
+                      },
+                     {"name":"Tamworth Hospital Helipad",
+                      "latitude":"-31.07457",
+                      "longitude":"150.92641",
+                      "id":"YXTW",
+                      "altitude":"1356",
+                      "municipality":"Tamworth",
+                      "type":"heliport",
+                      "region":"New South Wales",
+                      "country":"Australia"
+                      }]
+}

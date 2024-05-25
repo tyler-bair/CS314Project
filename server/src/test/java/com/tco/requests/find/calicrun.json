@@ -1,0 +1,15 @@
+{
+    "requestType"    : "find",
+    "match"          : "Computer",
+    "limit"          : 3,
+    "found"          : 1,
+    "places"         : [{"name":"Computer Associates Heliport", 
+                         "latitude": "40.81219864", 
+                         "longitude": "-73.17579651",
+                         "id":"6NK7",
+                         "altitude":"80",
+                         "type":"heliport",
+                         "region":"Islandia",
+                         "country":"United States"
+                         }]
+  }

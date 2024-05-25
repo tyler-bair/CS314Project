@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Polotsk, Belarus", "latitude":  "55.4846",  "longitude": "28.7782"},
+                      {"name": "Kinshasa, DRC", "latitude":  "-4.4419", "longitude": "15.2663"},
+                      {"name": "Urumqi, China", "latitude":  "43.8266", "longitude": "87.6169"},
+                      {"name": "Sydney, Australia", "latitude":  "-33.8688", "longitude": "151.2093"}],
+  "earthRadius"    : 6371.0,
+  "distances"      : [6778, 8955, 10771, 15051]
+}

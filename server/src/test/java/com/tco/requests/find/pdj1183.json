@@ -1,0 +1,37 @@
+{
+  "requestType"   : "find",
+  "match"         : "world",
+  "limit"         : 14,
+  "found"         : 3,
+  "places"        : [{"name": "Lt World Airport",
+                      "latitude":"33.76750183105469",
+                      "longitude":"-84.06829833984375",
+                      "id": "00GA",
+                      "altitude":"700",
+                      "municipality":"Lithonia",
+                      "type":"small_airport",
+                      "region":"US-GA",
+                      "country":"US"
+                      },
+                     {"name": "Texas World Speedway Helistop Nr 1 Heliportt",
+                      "latitude": "30.54050064086914",
+                      "longitude":"-96.22250366210938",
+                      "id": "0TE8",
+                      "altitude":"270",
+                      "municipality":"College Station",
+                      "type":"heliport",
+                      "region":"US-TX",
+                      "country":"US"
+                      },
+                     {"name": "Texas World Speedway Helistop Nr 2 Heliportt",
+                      "latitude": "30.54050064086914",
+                      "longitude":"-96.22250366210938",
+                      "id": "0TE9",
+                      "altitude":"270",
+                      "municipality":"College Station",
+                      "type":"heliport",
+                      "region":"US-TX",
+                      "country":"US"
+                      }]
+
+}

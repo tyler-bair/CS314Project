@@ -1,0 +1,16 @@
+{
+  "requestType"    : "find",
+  "match"          : "Maurice",
+  "limit"          : 1,
+  "found"          : 3,
+  "places"         : [{"name":" Riviere-St-Maurice-Aviation-Mauricie-Seaplane-Base ", 
+                       "latitude": "46.654", 
+                       "longitude": "-72.704",
+                       "id":"CA-0663",
+                       "altitude":"325",
+                       "type":"airport",
+                       "municipality":"Grand-Mere",
+                       "region":"Quebec",
+                       "country":"Canada"
+                      }]
+}

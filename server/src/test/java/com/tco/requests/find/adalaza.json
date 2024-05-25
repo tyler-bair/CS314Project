@@ -1,0 +1,26 @@
+{
+  "requestType"   : "find",
+  "match"         : "estes",
+  "limit"         : 2,
+  "found"         : 3,
+  "places"        : [{"name":"E.P.M.C. Heliport",
+                      "latitude":"40.371700286865234",
+                      "longitude":"-105.51599884033203",
+                      "id": "3CO8",
+                      "altitude":"7674",
+                      "municipality":"Estes Park",
+                      "type":"heliport",
+                      "region":"Colorado",
+                      "country":"United States"
+                      },
+                     {"name":"Estes Airport",
+                      "latitude":"38.9833984375",
+                      "longitude":"-84.66609954833984",
+                      "id":"67KY",
+                      "altitude":"890",
+                      "municipality":"Florence",
+                      "type":"small_airport",
+                      "region":"Kentucky",
+                      "country":"United States"
+                      }]
+}

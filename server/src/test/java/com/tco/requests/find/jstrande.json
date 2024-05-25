@@ -1,0 +1,36 @@
+{
+    "requestType": "find",
+    "match": "miller",
+    "limit": 4,
+    "found": 56,
+    "places": [
+      {
+        "continent": "NA",
+        "id": "03MI",
+        "latitude": "43.550899505615234",
+        "longitude": "-83.86219787597656",
+        "name": "Harold Miller Heliport"
+      },
+      {
+        "continent": "NA",
+        "id": "0II3",
+        "latitude": "40.62779998779297",
+        "longitude": "-86.03780364990234",
+        "name": "Miller Strip"
+      },
+      {
+        "continent": "NA",
+        "id": "1NE6",
+        "latitude": "41.34080123901367",
+        "longitude": "-102.77799987792969",
+        "name": "Miller Airstrip"
+      },
+      {
+        "continent": "NA",
+        "id": "25GA",
+        "latitude": "33.65959930419922",
+        "longitude": "-84.66300201416016",
+        "name": "Miller Farm Airport"
+      }
+    ]
+  }

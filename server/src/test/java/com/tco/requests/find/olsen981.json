@@ -1,0 +1,20 @@
+{
+    "requestType"    : "find",
+    "match"          : "midway",
+    "limit"          : 2,
+    "found"          : 9,
+    "places"         : [{"name":"Midway Airport", 
+                         "latitude": "42.215301513671875", 
+                         "longitude": "-84.80690002441406",
+                         "id":"42MI",
+                         "altitude":"963",
+                         "municipality":"Albion"
+                         },
+                         {"name":"Midway Lake Airport",
+                         "latitude":"28.04199981689453",
+                         "longitude":"-82.09230041503906",
+                         "id":"79FD",
+                         "altitude":"150",
+                         "municipality":"Plant City"
+                         }]
+}

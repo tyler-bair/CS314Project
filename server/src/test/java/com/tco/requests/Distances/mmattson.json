@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Hard Rock Cafe, Seattle", "latitude":  "47.609384",  "longitude": "-122.339507"},
+                      {"name": "Hard Rock Cafe, Las Vegas", "latitude":  "36.104382", "longitude": "-115.172316"},
+                      {"name": "Hard Rock Cafe, Niagara Falls", "latitude":  "43.086921", "longitude": "-79.064569"},
+                      {"name": "Hard Rock Cafe, Miami", "latitude":  "25.776937", "longitude": "-80.184778"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [1408, 3171, 1923, 4400]
+}

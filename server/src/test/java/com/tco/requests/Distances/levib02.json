@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"anchorage", "latitude":  "61.2184",  "longitude": "-149.8976"},
+                      {"name": "tokyo", "latitude":  "35.6791", "longitude": "139.6508"},
+                      {"name": "canberra", "latitude":  "-35.2821", "longitude": "149.1287"},
+                      {"name": "rio de janiero", "latitude":  "-22.9058", "longitude": "-43.1726"}],
+  "earthRadius"    : 6371.0,
+  "distances"       : [5566, 7951, 13416, 13116]
+}

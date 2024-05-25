@@ -1,0 +1,10 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name": "Casa Bonita", "latitude": "39.7418", "longitude": "-105.0707"},
+                      {"name": "World's Largest Ball of Twine", "latitude": "39.5092", "longitude": "-98.4337"},
+                      {"name": "Colorado State University", "latitude": "40.5734", "longitude": "-105.0865"},
+                      {"name": "Mt. Fuji", "latitude": "35.3606", "longitude": "138.7274"}],
+                      
+  "earthRadius"     :3440.0,
+  "distances"       :[307, 312, 5048, 5083]
+}

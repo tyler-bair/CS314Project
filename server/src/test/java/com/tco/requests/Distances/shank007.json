@@ -1,0 +1,9 @@
+{
+    "requestType"   : "distances",
+    "places"        : [ {"name": "North Pole", "latitude": "90.0", "longitude": "0"},
+                        {"name": "South Pole", "latitude": "-90", "longitude":  "0"},
+                        {"name": "Null Island", "latitude": "0", "longitude":  "0"},
+                        {"name": "USA White House ", "latitude": "38.897957", "longitude": "-77.036560"}],
+    "earthRadius"   : 1.0,
+    "distances"     : [ 3,  1,  1, 0]
+}

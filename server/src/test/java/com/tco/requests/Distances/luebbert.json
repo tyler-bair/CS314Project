@@ -1,0 +1,9 @@
+{ 
+  "requestType"    : "distances", 
+  "places"         : [{"name": "Amparita, Indonesia", "latitude":  "-3.9937",  "longitude": "119.8122"}, 
+                      {"name": "Tobarra, Spain", "latitude":  "38.59213", "longitude": "-1.69191"}, 
+                      {"name": "Chanonat, France", "latitude":  "45.69299", "longitude": "3.09351"} , 
+                      {"name": "Jiangshan, China", "latitude":  "25.18016", "longitude": "116.97328"}], 
+  "earthRadius"    : 1737.4, 
+  "distances"       : [3541, 240, 2644, 888] 
+} 

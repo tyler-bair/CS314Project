@@ -1,0 +1,9 @@
+{
+  "requestType"    : "distances",
+  "places"         : [{"name":"Abbott Northwestern Hospital", "latitude":  "44.95",  "longitude": "-93.26"},
+                      {"name": "Taipei 101", "latitude":  "25.03", "longitude": "121.56"},
+                      {"name": "Falconcity of Wonders", "latitude":  "25.10", "longitude": "55.34"},
+                      {"name": "H Mart, Aurora", "latitude":  "39.67", "longitude": "-104.86"}],
+  "earthRadius"    : 2049.6,
+  "distances"       : [2749.04, 2121.80, 2409.39, 359.81]
+}

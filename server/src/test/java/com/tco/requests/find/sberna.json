@@ -1,0 +1,16 @@
+{
+  "requestType"   : "find",
+  "match"         : "Dwight",
+  "limit"         : 1,
+  "found"         : 7,
+  "places"        : [{"name": "Dwight Field",
+                      "latitude": "46.61709976196289",
+                      "longitude":"-122.82599639892578",
+                      "id": "0WA1",
+                      "altitude":"350",
+                      "municipality":"Chehalis",
+                      "region":"US-WA",
+                      "country":"US"
+                      }]
+
+}

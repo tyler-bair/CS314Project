@@ -1,0 +1,14 @@
+{
+   "requestType" : "find",
+   "match" : "Total",
+   "limit" : 1,
+   "found" : 1,
+   "places" : [{ "name": "Total Rf Heliport",
+                 "latitude": "40.0708333",
+                 "longitude": "-74.9336111",
+		 "id":"00A",
+                 "altitude":"11",
+                 "municipality":"Bensalem",
+                 "type":"heliport"
+                }]
+}

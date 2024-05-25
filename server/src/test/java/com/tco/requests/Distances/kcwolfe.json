@@ -1,0 +1,9 @@
+{
+    "requestType"    : "distances",
+    "places"         : [{"name": "Space Mountain", "latitude":  "28.419048",  "longitude": "-81.577507"},
+                        {"name": "The Twilight Zone Tower Of Terror", "latitude":  "28.360032", "longitude": "-81.560062"},
+                        {"name": "Big Thunder Mountain Railroad", "latitude":  "28.420314", "longitude": "-81.584579"},
+                        {"name": "Seven Dwarfs Mine Train", "latitude":  "28.420682", "longitude": "-81.579662"}],
+    "earthRadius"    : 3671.0,
+    "distances"       : [6, 7, 0, 0]
+  }
